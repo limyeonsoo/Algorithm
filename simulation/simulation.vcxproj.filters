@@ -15,16 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="18790_N의배수1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="구데기컵.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="200321_스티커붙이기_18808.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="200321_Gaaarden_18809.cpp">
+    <ClCompile Include="16235 나무 재테크.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

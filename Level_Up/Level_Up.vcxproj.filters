@@ -81,7 +81,7 @@
     <ClCompile Include="함수작성_7단계.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="문자열단계.cpp">
+    <ClCompile Include="수학1단계.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

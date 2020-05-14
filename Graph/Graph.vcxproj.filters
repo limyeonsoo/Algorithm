@@ -45,5 +45,14 @@
     <ClCompile Include="다리만들기_2146.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="토마토_7576.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="유기농배추_1012.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="나이트의 이동_7562.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

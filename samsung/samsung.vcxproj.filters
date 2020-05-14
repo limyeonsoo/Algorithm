@@ -27,5 +27,17 @@
     <ClCompile Include="2098_외판원순회.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="연산자 끼워넣기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="캐슬디펜스_17135.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="파이프옮기기1_17070.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="게리맨더링_17471.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

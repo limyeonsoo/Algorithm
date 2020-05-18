@@ -30,5 +30,11 @@
     <ClCompile Include="공유기설치_2110.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="K번째수_1300.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="가장긴증가하는수열_12015.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

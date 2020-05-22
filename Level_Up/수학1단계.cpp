@@ -30,20 +30,74 @@
 //	}
 //}
 
+//#include <cstdio>
+//int floor[15][15];
+//int T, k, n;
+//int main() {
+//	scanf("%d", &T);
+//	while (T--) {
+//		scanf("%d%d", &k, &n);
+//		for (int i = 1; i < 15; i++) { floor[0][i] = i; } //0층의 i호수는 i
+//		for (int i = 0; i < 15; i++) { floor[i][1] = 1; } // 각 층의 1호는 1;
+//		for (int i = 1; i < 15; i++) {
+//			for (int j = 2; j < 15; j++) {
+//				floor[i][j] = floor[i - 1][j] + floor[i][j - 1];
+//			}
+//		}
+//		printf("%d\n", floor[k][n]);	
+//	}
+//}
+
+/*
+	규칙 찾기
+
+	1   1
+	4   3
+	9   5
+	16  7
+	25
+	
+	1	1
+	2   1 1            2
+	3   1 1 1
+	4   1 2 1          3
+	5	1 1 2 1
+	6   1 2 2 1        4
+	7	1 2 2 1 1
+	8   1 2 2 2 1
+	9   1 2 3 2 1      5
+	10	1 2 3 2 1 1
+	11  1 2 3 2 2 1
+	12  1 2 3 3 2 1    6
+	13  1 2 3 3 2 1 1
+	14  1 2 3 3 2 2 1
+	15  1 2 3 3 3 2 1
+	16  1 2 3 4 3 2 1  7
+	 y-x가  (pow(((int)sqrt(y-x)+1),2) - pow((int)sqrt(y-x),2)) /2 <= (y-x) ? (int)sqrt(y-x)*2 : (int)sqrt(y-x)*2-1; 
+	((int)sqrt(y-x)+1)-(int)sqrt(y-x) >= (int)((int)sqrt(y-x)+1)/2 ?
+
+
+*/
+
 #include <cstdio>
-int floor[15][15];
-int T, k, n;
+#include <math.h>
+#define ll long long
+
 int main() {
-	scanf("%d", &T);
-	while (T--) {
-		scanf("%d%d", &k, &n);
-		for (int i = 1; i < 15; i++) { floor[0][i] = i; } //0층의 i호수는 i
-		for (int i = 0; i < 15; i++) { floor[i][1] = 1; } // 각 층의 1호는 1;
-		for (int i = 1; i < 15; i++) {
-			for (int j = 2; j < 15; j++) {
-				floor[i][j] = floor[i - 1][j] + floor[i][j - 1];
+	int N;
+	ll x, y;
+	scanf("%d", &N);
+	while (N--) {
+		scanf("%lld%lld", &x, &y);
+		ll answer, stride = 1, diff = y-x;
+		for (ll i = 1; ; i++) {
+			ll now = i * i, pre = (i - 1) * (i - 1);
+			if ((i * i >= diff) && (diff > (i - 1) * (i - 1))) {
+				ceil((double)(now + pre) / 2) <= diff ? answer = stride : answer = stride -1;
+				printf("%lld\n", answer);
+				break;
 			}
+			stride += 2;
 		}
-		printf("%d\n", floor[k][n]);	
 	}
 }

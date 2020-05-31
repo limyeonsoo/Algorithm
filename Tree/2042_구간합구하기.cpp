@@ -43,8 +43,8 @@ int main() {
 			int index;
 			ll val, diff;
 			scanf("%d %lld", &index, &val);
-			diff = val - A[index - 1];
-			A[index - 1] = val;
+			diff = val - A[index - 1];  
+			A[index - 1] = val;     // arr 도 바꿔주고
 			update(tree, 1, 0, N-1, index - 1, diff);
 		}
 		else{      // 1 ~ 2 합.

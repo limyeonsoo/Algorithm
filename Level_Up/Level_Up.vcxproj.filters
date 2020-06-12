@@ -84,5 +84,8 @@
     <ClCompile Include="수학1단계.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="언더프라임_1124.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

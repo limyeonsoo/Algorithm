@@ -39,5 +39,11 @@
     <ClCompile Include="게리맨더링_17471.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="수들의합2_2003.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치수2_2748.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

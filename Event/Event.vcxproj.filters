@@ -27,5 +27,8 @@
     <ClCompile Include="200321_Gaaarden_18809.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="카카오엔터프라이즈.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

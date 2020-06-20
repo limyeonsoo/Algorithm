@@ -21,5 +21,11 @@
     <ClCompile Include="집합의표현_1717.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="여행가자_1976.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="친구네트워크_4195.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

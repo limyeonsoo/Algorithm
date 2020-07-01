@@ -3,9 +3,7 @@
 using namespace std;
 int n;
 bool eratos[1000001] = { true,true };
-void Eratosthenes_chae() {
-	for (int i = 2; i <= 1000000; i++) if (eratos[i] == false)	for (int j = i + i; j <= 1000000; j += i) eratos[j] = true;
-}
+void Eratosthenes_chae() {for (int i = 2; i <= 1000000; i++) if (eratos[i] == false)	for (int j = i + i; j <= 1000000; j += i) eratos[j] = true;}
 int main() {
 	Eratosthenes_chae();
 	while (1) {

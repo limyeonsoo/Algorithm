@@ -37,7 +37,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math", "Math\Math.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Segment_Tree", "Segment_Tree\Segment_Tree.vcxproj", "{916EF019-4DCE-4990-9A58-ABB95C62A8B9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack", "Stack\Stack.vcxproj", "{D3E1C58A-6B63-4049-8A3C-C5D1B0D4A8C9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack_N_Queue", "Stack\Stack.vcxproj", "{D3E1C58A-6B63-4049-8A3C-C5D1B0D4A8C9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Back_tracking", "Back_tracking\Back_tracking.vcxproj", "{3CA435F5-9D17-4E19-8F41-1FF88DE75391}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,6 +193,14 @@ Global
 		{D3E1C58A-6B63-4049-8A3C-C5D1B0D4A8C9}.Release|x64.Build.0 = Release|x64
 		{D3E1C58A-6B63-4049-8A3C-C5D1B0D4A8C9}.Release|x86.ActiveCfg = Release|Win32
 		{D3E1C58A-6B63-4049-8A3C-C5D1B0D4A8C9}.Release|x86.Build.0 = Release|Win32
+		{3CA435F5-9D17-4E19-8F41-1FF88DE75391}.Debug|x64.ActiveCfg = Debug|x64
+		{3CA435F5-9D17-4E19-8F41-1FF88DE75391}.Debug|x64.Build.0 = Debug|x64
+		{3CA435F5-9D17-4E19-8F41-1FF88DE75391}.Debug|x86.ActiveCfg = Debug|Win32
+		{3CA435F5-9D17-4E19-8F41-1FF88DE75391}.Debug|x86.Build.0 = Debug|Win32
+		{3CA435F5-9D17-4E19-8F41-1FF88DE75391}.Release|x64.ActiveCfg = Release|x64
+		{3CA435F5-9D17-4E19-8F41-1FF88DE75391}.Release|x64.Build.0 = Release|x64
+		{3CA435F5-9D17-4E19-8F41-1FF88DE75391}.Release|x86.ActiveCfg = Release|Win32
+		{3CA435F5-9D17-4E19-8F41-1FF88DE75391}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

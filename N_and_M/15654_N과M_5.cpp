@@ -22,7 +22,8 @@ void dfs(int depth) {
 		if (check[i]) continue;
 		check[i] = true;
 		S[depth] = i;
-		dfs(depth + 1);
+		if (S[depth] >= S[depth - 1])
+			dfs(depth + 1);
 		check[i] = false;
 	}
 }

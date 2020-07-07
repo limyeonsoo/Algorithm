@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{916ef019-4dce-4990-9a58-abb95c62a8b9}</ProjectGuid>
-    <RootNamespace>SegmentTree</RootNamespace>
+    <ProjectGuid>{3ca435f5-9d17-4e19-8f41-1ff88de75391}</ProjectGuid>
+    <RootNamespace>Backtracking</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,13 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="수열과 쿼리 16_14428.cpp">
+    <ClCompile Include="N_Queen_9663.cpp" />
+    <ClCompile Include="로또_6603.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="수열과 쿼리 17_14438.cpp">
+    <ClCompile Include="부분수열의합_1182.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="수열과쿼리21_16975.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

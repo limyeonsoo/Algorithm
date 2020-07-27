@@ -33,5 +33,8 @@
     <ClCompile Include="좋은수열_2661.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="스도쿠_2580.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

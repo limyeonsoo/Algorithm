@@ -5,6 +5,7 @@
 using namespace std;
 int N;
 string ott = "123";
+
 void dfs(string S) {
 	//for (int i = 0; i < S.size()-1; i++) { //start
 	//	for (int j = 1; j <= (S.size() / 2 - i); j++) { //length

@@ -54,5 +54,11 @@
     <ClCompile Include="가로수_2485.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="소수의연속합_1644.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15711_환상의짝꿍.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

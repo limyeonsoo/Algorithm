@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack_N_Queue", "Stack\Stac
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Back_tracking", "Back_tracking\Back_tracking.vcxproj", "{3CA435F5-9D17-4E19-8F41-1FF88DE75391}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "투포인터", "투포인터\투포인터.vcxproj", "{6982B7DB-EA08-409C-8461-461446A72468}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{3CA435F5-9D17-4E19-8F41-1FF88DE75391}.Release|x64.Build.0 = Release|x64
 		{3CA435F5-9D17-4E19-8F41-1FF88DE75391}.Release|x86.ActiveCfg = Release|Win32
 		{3CA435F5-9D17-4E19-8F41-1FF88DE75391}.Release|x86.Build.0 = Release|Win32
+		{6982B7DB-EA08-409C-8461-461446A72468}.Debug|x64.ActiveCfg = Debug|x64
+		{6982B7DB-EA08-409C-8461-461446A72468}.Debug|x64.Build.0 = Debug|x64
+		{6982B7DB-EA08-409C-8461-461446A72468}.Debug|x86.ActiveCfg = Debug|Win32
+		{6982B7DB-EA08-409C-8461-461446A72468}.Debug|x86.Build.0 = Debug|Win32
+		{6982B7DB-EA08-409C-8461-461446A72468}.Release|x64.ActiveCfg = Release|x64
+		{6982B7DB-EA08-409C-8461-461446A72468}.Release|x64.Build.0 = Release|x64
+		{6982B7DB-EA08-409C-8461-461446A72468}.Release|x86.ActiveCfg = Release|Win32
+		{6982B7DB-EA08-409C-8461-461446A72468}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

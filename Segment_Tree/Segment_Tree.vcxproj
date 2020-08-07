@@ -139,6 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Tree\17353_하늘에서 떨어지는 1,2,R-L+1개의 별.cpp" />
+    <ClCompile Include="..\Tree\2042_구간합구하기.cpp" />
+    <ClCompile Include="..\Tree\구간합구하기2.cpp" />
     <ClCompile Include="수열과 쿼리 16_14428.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

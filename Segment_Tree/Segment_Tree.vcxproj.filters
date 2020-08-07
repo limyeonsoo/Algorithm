@@ -24,5 +24,14 @@
     <ClCompile Include="수열과쿼리21_16975.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\Tree\2042_구간합구하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tree\17353_하늘에서 떨어지는 1,2,R-L+1개의 별.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tree\구간합구하기2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

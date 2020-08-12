@@ -39,5 +39,8 @@
     <ClCompile Include="1697_숨바꼭질.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2206_벽부수고이동하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

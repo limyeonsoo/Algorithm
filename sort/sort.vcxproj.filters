@@ -45,5 +45,8 @@
     <ClCompile Include="중복빼고정렬하기_10867.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2252_줄세우기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -44,8 +44,6 @@ int main() {
 	topologicalSort();
 }
 
-
-
 /*
 	다른 root도 모두 기다려야함.
 	ex) 

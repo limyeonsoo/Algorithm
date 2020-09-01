@@ -17,7 +17,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Level_Up", "Level_Up\Level_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "N_and_M", "N_and_M\N_and_M.vcxproj", "{2ACF166A-4492-452E-AE17-ED191614E3FB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codeforces", "codeforces\codeforces.vcxproj", "{5FB4CFD3-80E8-4ECF-9DBB-61E6C5F6B66A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codeground", "codeforces\codeforces.vcxproj", "{5FB4CFD3-80E8-4ECF-9DBB-61E6C5F6B66A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Greedy_Algorithm", "그리디알고리즘\그리디알고리즘.vcxproj", "{E7E91C28-7BA6-4AB5-9E4C-EE3F3682431E}"
 EndProject
@@ -44,6 +44,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "투포인터", "투포인터\투포인터.vcxproj", "{6982B7DB-EA08-409C-8461-461446A72468}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DP", "DP\DP.vcxproj", "{B358EB7A-295B-41F7-A069-C023ECC03639}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "divide_and_conquer", "divide_and_conquer\divide_and_conquer.vcxproj", "{2CB7DD2D-2C2B-4C96-A17E-3C673B51309E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -221,6 +223,14 @@ Global
 		{B358EB7A-295B-41F7-A069-C023ECC03639}.Release|x64.Build.0 = Release|x64
 		{B358EB7A-295B-41F7-A069-C023ECC03639}.Release|x86.ActiveCfg = Release|Win32
 		{B358EB7A-295B-41F7-A069-C023ECC03639}.Release|x86.Build.0 = Release|Win32
+		{2CB7DD2D-2C2B-4C96-A17E-3C673B51309E}.Debug|x64.ActiveCfg = Debug|x64
+		{2CB7DD2D-2C2B-4C96-A17E-3C673B51309E}.Debug|x64.Build.0 = Debug|x64
+		{2CB7DD2D-2C2B-4C96-A17E-3C673B51309E}.Debug|x86.ActiveCfg = Debug|Win32
+		{2CB7DD2D-2C2B-4C96-A17E-3C673B51309E}.Debug|x86.Build.0 = Debug|Win32
+		{2CB7DD2D-2C2B-4C96-A17E-3C673B51309E}.Release|x64.ActiveCfg = Release|x64
+		{2CB7DD2D-2C2B-4C96-A17E-3C673B51309E}.Release|x64.Build.0 = Release|x64
+		{2CB7DD2D-2C2B-4C96-A17E-3C673B51309E}.Release|x86.ActiveCfg = Release|Win32
+		{2CB7DD2D-2C2B-4C96-A17E-3C673B51309E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

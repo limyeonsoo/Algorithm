@@ -69,5 +69,8 @@
     <ClCompile Include="네트워크연결.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2636_치즈.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

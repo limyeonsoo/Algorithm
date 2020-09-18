@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DP", "DP\DP.vcxproj", "{B35
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "divide_and_conquer", "divide_and_conquer\divide_and_conquer.vcxproj", "{2CB7DD2D-2C2B-4C96-A17E-3C673B51309E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "최단경로", "최단경로\최단경로.vcxproj", "{5A38D92C-EF7D-4828-990D-6FD000479710}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -231,6 +233,14 @@ Global
 		{2CB7DD2D-2C2B-4C96-A17E-3C673B51309E}.Release|x64.Build.0 = Release|x64
 		{2CB7DD2D-2C2B-4C96-A17E-3C673B51309E}.Release|x86.ActiveCfg = Release|Win32
 		{2CB7DD2D-2C2B-4C96-A17E-3C673B51309E}.Release|x86.Build.0 = Release|Win32
+		{5A38D92C-EF7D-4828-990D-6FD000479710}.Debug|x64.ActiveCfg = Debug|x64
+		{5A38D92C-EF7D-4828-990D-6FD000479710}.Debug|x64.Build.0 = Debug|x64
+		{5A38D92C-EF7D-4828-990D-6FD000479710}.Debug|x86.ActiveCfg = Debug|Win32
+		{5A38D92C-EF7D-4828-990D-6FD000479710}.Debug|x86.Build.0 = Debug|Win32
+		{5A38D92C-EF7D-4828-990D-6FD000479710}.Release|x64.ActiveCfg = Release|x64
+		{5A38D92C-EF7D-4828-990D-6FD000479710}.Release|x64.Build.0 = Release|x64
+		{5A38D92C-EF7D-4828-990D-6FD000479710}.Release|x86.ActiveCfg = Release|Win32
+		{5A38D92C-EF7D-4828-990D-6FD000479710}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

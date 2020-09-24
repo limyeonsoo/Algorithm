@@ -18,5 +18,8 @@
     <ClCompile Include="16235 나무 재테크.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14891_톱니바퀴.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

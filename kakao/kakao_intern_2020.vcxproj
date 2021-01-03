@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="가사검색.cpp" />
     <ClCompile Include="괄호변환.cpp" />
     <ClCompile Include="기둥과보설치.cpp" />
   </ItemGroup>

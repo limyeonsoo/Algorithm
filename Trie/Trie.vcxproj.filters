@@ -27,5 +27,8 @@
     <ClCompile Include="13505_두수XOR.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="13502_단어퍼즐2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

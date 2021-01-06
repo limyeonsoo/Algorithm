@@ -20,4 +20,6 @@
 
 [13505_두 수 XOR]https://www.notion.so/13505_-XOR-f556bf1507524665a20ada85c4014d27
 
+[4358_생태학] https://www.notion.so/4358_-6504ab5ca2a8454c98abd45903a6bcf2
+
 [Copy of frame](Trie%2016d2c91250ab4012830d774891351551/Copy%20of%20frame%20f556bf1507524665a20ada85c4014d27.md)

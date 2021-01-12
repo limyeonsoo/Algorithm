@@ -22,72 +22,51 @@ int checkChar(char key) {
 }
 
 struct Trie {
-	Trie* next[53];
+	Trie* next[63];
 	int charState;
-	bool hasNext;
 	bool doNotDel;
-	bool isEnd;
 
 	Trie() {
-		fill(next, next + 53, nullptr);
+		fill(next, next + 63, nullptr);
 		charState = -1;
-		hasNext = doNotDel = isEnd = false;
+		doNotDel = false;
 	}
 
 	~Trie() {
-		for (int i = 0; i < 53; i++) if (next[i]) delete next[i];
+		for (int i = 0; i < 63; i++) if (next[i]) delete next[i];
 	}
 
 	void insert(const char* key, bool condition) {
 		if (condition) doNotDel = true;
 		if (*key == '\0') {
-			isEnd = true;
 			return;
 		}
 		charState = checkChar(*key);
 		int curr = 0;
-		
 		if (charState == 0) curr = *key - 'A';
-		else if (charState == 1) curr = *key - 'a' + 26;
+		else if (charState == 1) curr = *key - 'a'+26;
 		else if (charState == 2) curr = 52;
-		else if (charState == 3) curr = *key - '0';
-		
+		else if (charState == 3) curr = *key - '0'+53;
 		if (!next[curr]) next[curr] = new Trie;
-		hasNext = true;
 		next[curr]->insert(key + 1, condition);
 	}
 
-	void find() {
-		//if (*key == '\0') {
-		//	return cmd;
-		//}
-		//charState = checkChar(*key);
-		//int curr = 0;
-		//if (charState == 0) curr = *key - 'A';
-		//else if (charState == 1) curr = *key - 'a' + 26;
-		//else if (charState == 2) curr = 52;
-		//else if (charState == 3) curr = *key - '0';
-
-		////cout << key << " " << *key << "  ->  " << cmd+ *key << " " << doNotDel << " " << isEnd << " "<<childCount<<'\n';
-
-		//if (doNotDel) {
-		//	if (next[curr]) return next[curr]->find(key + 1, cmd + *key);  //지우면 안된다면 무조건 전진.			
-		//	else return cmd + *key;
-		//}
-		//else { //지워도 된다.  단, *을 붙이냐? 안붙이냐?   자식 수에 관련?
-		//	// doNotDel 은 false다.
-		//	return cmd + "*";
-		//	
-		//}
-		if (!doNotDel) {
-			answer++;
-			return;
+	string find(const char* key, string query, string current) {
+		if (*key == '\0') {
+			if (query == current) return current;
 		}
-		else if (isEnd)answer++;
-		for (int i = 0; i < 53; i++) {
-			if (next[i]) next[i]->find();
+		charState = checkChar(*key);
+		int curr = 0;
+		if (charState == 0) curr = *key - 'A';
+		else if (charState == 1) curr = *key - 'a'+26;
+		else if (charState == 2) curr = 52;
+		else if (charState == 3) curr = *key - '0'+53;
+		if (doNotDel) {
+			return next[curr]->find(key + 1, query, current + *key);
 		}
-
+		else {
+			return current+ "*";
+		}
 	}
 };
 
@@ -99,9 +78,8 @@ void input() {
 	while (testCase--) {
 		Trie* root = new Trie;
 		unordered_set <string> deleteSet;
-		//unordered_set <string> answer;
+		unordered_set <string> answer;
 		unordered_set <string>::iterator iter;
-		answer = 0;
 		cin >> targetCase;
 		for (int i = 0; i < targetCase; i++) {
 			cin >> target;
@@ -115,14 +93,12 @@ void input() {
 			root->insert(remain.c_str(), true);
 		}
 		
-		root->find();
-		//for (iter = deleteSet.begin(); iter != deleteSet.end(); ++iter) {
-		//	string res = root->find(iter->c_str(), "");
-		//	//cout << res << '\n';
-		//	//answer.insert(res);
-		//}
-		cout << answer << '\n';
-		//cout << answer.size() << '\n';
+		for (iter = deleteSet.begin(); iter != deleteSet.end(); ++iter) {
+			string res = root->find(iter->c_str(), *iter, "");
+			cout << res << '\n';
+			answer.insert(res);
+		}
+		cout << answer.size() << '\n';
 		delete root;
 	}
 }

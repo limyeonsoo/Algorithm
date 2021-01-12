@@ -19,13 +19,7 @@ void input() {
 		v.push_back(temp);
 	}
 }
-int minimum(int k) {
-	int mini = 2147483647;
-	for (int i = 0; i < k; i++) {
-		mini = (mini > v[i] ? v[i] : mini);
-	}
-	return mini;
-}
+
 int calc() {
 	sort(v.begin(), v.end(), cmp);
 	answer = v[0];

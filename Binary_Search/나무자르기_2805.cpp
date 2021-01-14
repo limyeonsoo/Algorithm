@@ -39,6 +39,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#define ll long long
 
 using namespace std;
 int H, N, M, temp, maxi;
@@ -54,7 +55,7 @@ void input() {
 }
 
 bool check(int mid){
-	int sum = 0;
+	ll sum = 0;
 	for (auto& tree : trees) {
 		sum += (tree - mid > 0 ? tree - mid : 0);
 	}

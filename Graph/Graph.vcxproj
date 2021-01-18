@@ -144,7 +144,10 @@
     <ClCompile Include="1197_최소스패닝트리_prim.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="16954_움직이는 미로 탈출.cpp" />
+    <ClCompile Include="16954_움직이는 미로 탈출.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1939_중량제한.cpp" />
     <ClCompile Include="2636_치즈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

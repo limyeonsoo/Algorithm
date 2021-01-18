@@ -24,6 +24,7 @@
 
 - n이 작을 때, n log n 과 n^2의 차이는 미비하다. 즉, Quick sort내부의 function call만 많아질 뿐 효과를 볼 수 없다.
 ⇒ C++, Java에서는 n이 작을 때, 자동으로 Insertion sort로 sorting한다.
+- quick sort는 임의 접근을 하기 때문에 locality가 있을 때 효과적이다.
 
 ---
 

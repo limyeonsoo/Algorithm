@@ -81,5 +81,8 @@
     <ClCompile Include="20058_마법사 상어와 파이어스톰.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="17143_낚시왕.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

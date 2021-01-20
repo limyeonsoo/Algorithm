@@ -31,3 +31,5 @@
 [1939_중량제한](https://www.notion.so/1939_-e17898003580466aa25619165a126c4a)
 
 [5214_환승](https://www.notion.so/5214_-bdcc95d4f1324dac9c852c0f861256b6)
+
+[Programmers 42861 (prim)섬연결하기](https://www.notion.so/Programmers-42861-prim-7b9f98fc27334ba0b0ef656cca1f12d5)

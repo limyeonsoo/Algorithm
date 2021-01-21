@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AC_5430.cpp" />
+    <ClCompile Include="LeetCode_895_Maximum_Frequency_Stack.cpp" />
     <ClCompile Include="스택수열_1874.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

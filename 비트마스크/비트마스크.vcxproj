@@ -138,6 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Math\1322_X와K.cpp" />
     <ClCompile Include="..\오늘의문제\20501_Facebook.cpp" />
     <ClCompile Include="IP주소_2064.cpp" />
     <ClCompile Include="집합_11723.cpp">

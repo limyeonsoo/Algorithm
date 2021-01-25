@@ -3,3 +3,5 @@
 ---
 
 [LeetCode 124 Binary Tree Maximum Path Sum](Tree%208c8f87e3bdd74f91970a1ec235f8d380/LeetCode%20124%20Binary%20Tree%20Maximum%20Path%20Sum%2023c0121dd5ce4182892a93ffc1aed7d9.md)
+
+[1167_트리의 지름](Tree%208c8f87e3bdd74f91970a1ec235f8d380/1167_%E1%84%90%E1%85%B3%E1%84%85%E1%85%B5%E1%84%8B%E1%85%B4%20%E1%84%8C%E1%85%B5%E1%84%85%E1%85%B3%E1%86%B7%2035e3dd2146ac4e849b0379e32565fd4a.md)

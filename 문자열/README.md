@@ -20,6 +20,42 @@
 
 [Copy of frame](%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%A7%E1%86%AF%208d4d88c259e7451cb02874291e90175b/Copy%20of%20frame%20c3eca8fb605c416a89628aae37c0c357.md)
 
+### 문자열 식 사칙연산.
+
+[16637_괄호 추가하기 (잘못된 방법)](%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%A7%E1%86%AF%208d4d88c259e7451cb02874291e90175b/16637_%E1%84%80%E1%85%AA%E1%86%AF%E1%84%92%E1%85%A9%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20(%E1%84%8C%E1%85%A1%E1%86%AF%E1%84%86%E1%85%A9%E1%86%BA%E1%84%83%E1%85%AC%E1%86%AB%20%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8)%200c3a6f3082f041cbb4d06980a7226c1f.md)
+
+[Copy of 16637_괄호 추가하기 (잘못된 방법)](%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%A7%E1%86%AF%208d4d88c259e7451cb02874291e90175b/Copy%20of%2016637_%E1%84%80%E1%85%AA%E1%86%AF%E1%84%92%E1%85%A9%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%20(%E1%84%8C%E1%85%A1%E1%86%AF%E1%84%86%E1%85%A9%E1%86%BA%E1%84%83%E1%85%AC%E1%86%AB%20%E1%84%87%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%86%B8)%20389285c18a9d4255ba9e52d28a7b0139.md)
+
+**< int - to - str >**
+
+```cpp
+string intToStr(int x) {
+	string result = "";
+	while (x > 0) {
+		int end = x % 10;
+		result += '0' + end;
+		x /= 10;
+	}
+	reverse(result.begin(), result.end());
+	return result;
+}
+```
+
+**< str - to - int >**
+
+```cpp
+int strToInt(string x) {
+	int result = 0;
+	while (x.size()) {
+		result *= 10;
+		result += x[0]-'0';
+		x = x.substr(1, x.size());
+	}
+
+	return result;
+}
+```
+
 ### 문자열 조합 과 소수
 
 [소수 찾기](%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%A7%E1%86%AF%208d4d88c259e7451cb02874291e90175b/%E1%84%89%E1%85%A9%E1%84%89%E1%85%AE%20%E1%84%8E%E1%85%A1%E1%86%BD%E1%84%80%E1%85%B5%2050fb53c3d50041efa0b93c78b98fb1c4.md)

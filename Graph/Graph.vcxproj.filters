@@ -84,5 +84,8 @@
     <ClCompile Include="Programmers_42861_(prim)섬_연결하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\오늘의문제\17071_숨바꼭질5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

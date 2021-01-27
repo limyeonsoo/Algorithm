@@ -27,5 +27,8 @@
     <ClCompile Include="LeetCode_895_Maximum_Frequency_Stack.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode 329 Longest Increasing Path in a Matrix.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

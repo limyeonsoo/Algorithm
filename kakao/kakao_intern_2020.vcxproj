@@ -145,6 +145,9 @@
     <ClCompile Include="기둥과보설치.cpp" />
     <ClCompile Include="무지의 먹방 라이브.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="기둥과 보 설치.js" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

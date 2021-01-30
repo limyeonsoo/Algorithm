@@ -144,6 +144,7 @@
     <ClCompile Include="괄호변환.cpp" />
     <ClCompile Include="기둥과보설치.cpp" />
     <ClCompile Include="무지의 먹방 라이브.cpp" />
+    <ClCompile Include="외벽점검.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="기둥과 보 설치.js" />

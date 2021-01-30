@@ -93,5 +93,8 @@
     <ClCompile Include="LeetCode 45 Jump Game ii.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers 1843 사칙연산.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

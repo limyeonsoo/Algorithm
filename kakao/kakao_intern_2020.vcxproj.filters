@@ -30,6 +30,9 @@
     <ClCompile Include="무지의 먹방 라이브.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="외벽점검.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="기둥과 보 설치.js">

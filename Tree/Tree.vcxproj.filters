@@ -39,5 +39,8 @@
     <ClCompile Include="1167_트리의지름_다시.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11812 K진 트리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

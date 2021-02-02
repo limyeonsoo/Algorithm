@@ -69,5 +69,8 @@
     <ClCompile Include="..\오늘의문제\1027_고층건물.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="swea 11112 셀로판지.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

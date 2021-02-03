@@ -1,0 +1,9 @@
+﻿Algorithm,Worst-case,Average
+Insertion sort,O($n^2$),O($n^2$)
+Merge sort,O($n log n$),O($n log n$)
+Heap sort,O($n log n$),-
+Quick sort,O($n^2$),O($n log n$)
+Counting sort,O($k+n$),O($k+n$)
+Radix sort,O($d(n+k)$),O($d(n+k)$)
+Bucket sort,O($n^2$),O($n$)
+,,

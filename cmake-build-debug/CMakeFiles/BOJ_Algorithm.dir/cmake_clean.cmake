@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "BOJ_Algorithm"
   "BOJ_Algorithm.pdb"
-  "CMakeFiles/BOJ_Algorithm.dir/DP/12865_평범한배낭.cpp.o"
+  "CMakeFiles/BOJ_Algorithm.dir/문자열/1339_단어_수학.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

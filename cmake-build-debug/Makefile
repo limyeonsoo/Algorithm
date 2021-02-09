@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-DP/12865_평범한배낭.o: DP/12865_평범한배낭.cpp.o
+문자열/1339_단어_수학.o: 문자열/1339_단어_수학.cpp.o
 
-.PHONY : DP/12865_평범한배낭.o
+.PHONY : 문자열/1339_단어_수학.o
 
 # target to build an object file
-DP/12865_평범한배낭.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DP/12865_평범한배낭.cpp.o
-.PHONY : DP/12865_평범한배낭.cpp.o
+문자열/1339_단어_수학.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/문자열/1339_단어_수학.cpp.o
+.PHONY : 문자열/1339_단어_수학.cpp.o
 
-DP/12865_평범한배낭.i: DP/12865_평범한배낭.cpp.i
+문자열/1339_단어_수학.i: 문자열/1339_단어_수학.cpp.i
 
-.PHONY : DP/12865_평범한배낭.i
+.PHONY : 문자열/1339_단어_수학.i
 
 # target to preprocess a source file
-DP/12865_평범한배낭.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DP/12865_평범한배낭.cpp.i
-.PHONY : DP/12865_평범한배낭.cpp.i
+문자열/1339_단어_수학.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/문자열/1339_단어_수학.cpp.i
+.PHONY : 문자열/1339_단어_수학.cpp.i
 
-DP/12865_평범한배낭.s: DP/12865_평범한배낭.cpp.s
+문자열/1339_단어_수학.s: 문자열/1339_단어_수학.cpp.s
 
-.PHONY : DP/12865_평범한배낭.s
+.PHONY : 문자열/1339_단어_수학.s
 
 # target to generate assembly for a file
-DP/12865_평범한배낭.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DP/12865_평범한배낭.cpp.s
-.PHONY : DP/12865_평범한배낭.cpp.s
+문자열/1339_단어_수학.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/문자열/1339_단어_수학.cpp.s
+.PHONY : 문자열/1339_단어_수학.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... DP/12865_평범한배낭.o"
-	@echo "... DP/12865_평범한배낭.i"
-	@echo "... DP/12865_평범한배낭.s"
+	@echo "... 문자열/1339_단어_수학.o"
+	@echo "... 문자열/1339_단어_수학.i"
+	@echo "... 문자열/1339_단어_수학.s"
 .PHONY : help
 
 

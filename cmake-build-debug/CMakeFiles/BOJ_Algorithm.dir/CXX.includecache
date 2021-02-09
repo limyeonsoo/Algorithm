@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/ysl/BOJ-Algorithm/DP/12865_평범한배낭.cpp
+/Users/ysl/BOJ-Algorithm/문자열/1339 단어 수학.cpp
 iostream
 -
-vector
--
 algorithm
+-
+string
+-
+vector
 -
 

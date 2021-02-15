@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-DP/1135_뉴스전하기.o: DP/1135_뉴스전하기.cpp.o
+Segment_Tree/1280_나무심기.o: Segment_Tree/1280_나무심기.cpp.o
 
-.PHONY : DP/1135_뉴스전하기.o
+.PHONY : Segment_Tree/1280_나무심기.o
 
 # target to build an object file
-DP/1135_뉴스전하기.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DP/1135_뉴스전하기.cpp.o
-.PHONY : DP/1135_뉴스전하기.cpp.o
+Segment_Tree/1280_나무심기.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Segment_Tree/1280_나무심기.cpp.o
+.PHONY : Segment_Tree/1280_나무심기.cpp.o
 
-DP/1135_뉴스전하기.i: DP/1135_뉴스전하기.cpp.i
+Segment_Tree/1280_나무심기.i: Segment_Tree/1280_나무심기.cpp.i
 
-.PHONY : DP/1135_뉴스전하기.i
+.PHONY : Segment_Tree/1280_나무심기.i
 
 # target to preprocess a source file
-DP/1135_뉴스전하기.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DP/1135_뉴스전하기.cpp.i
-.PHONY : DP/1135_뉴스전하기.cpp.i
+Segment_Tree/1280_나무심기.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Segment_Tree/1280_나무심기.cpp.i
+.PHONY : Segment_Tree/1280_나무심기.cpp.i
 
-DP/1135_뉴스전하기.s: DP/1135_뉴스전하기.cpp.s
+Segment_Tree/1280_나무심기.s: Segment_Tree/1280_나무심기.cpp.s
 
-.PHONY : DP/1135_뉴스전하기.s
+.PHONY : Segment_Tree/1280_나무심기.s
 
 # target to generate assembly for a file
-DP/1135_뉴스전하기.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DP/1135_뉴스전하기.cpp.s
-.PHONY : DP/1135_뉴스전하기.cpp.s
+Segment_Tree/1280_나무심기.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Segment_Tree/1280_나무심기.cpp.s
+.PHONY : Segment_Tree/1280_나무심기.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... DP/1135_뉴스전하기.o"
-	@echo "... DP/1135_뉴스전하기.i"
-	@echo "... DP/1135_뉴스전하기.s"
+	@echo "... Segment_Tree/1280_나무심기.o"
+	@echo "... Segment_Tree/1280_나무심기.i"
+	@echo "... Segment_Tree/1280_나무심기.s"
 .PHONY : help
 
 

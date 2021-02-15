@@ -10,60 +10,60 @@ vector <int> value;
 vector <int> tree;
 
 int init(int node, int start, int end) {
-	if (start == end) return tree[node] = value[start];
-	else {
-		return tree[node] = min(init(node * 2, start, (start + end) / 2),
-			init(node * 2 + 1, (start + end) / 2 + 1, end));
-	}
+    if (start == end) return tree[node] = value[start];
+    else {
+        return tree[node] = min(init(node * 2, start, (start + end) / 2),
+                                init(node * 2 + 1, (start + end) / 2 + 1, end));
+    }
 }
 int update(int node, int start, int end, int index, int value) {
-	if (!(start <= index && index <= end))  //±¸°£ È®ÀÎ.
-		return tree[node];
-	if (start == end) {
-		//cout << "st == end node : " << node << '\n';
-		return tree[node] = value;
-	}
-	return tree[node] = min(update(node * 2, start, (start + end) / 2, index, value), update(node * 2 + 1, (start + end) / 2 + 1, end, index, value));
+    if (!(start <= index && index <= end))  //ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½.
+        return tree[node];
+    if (start == end) {
+        //cout << "st == end node : " << node << '\n';
+        return tree[node] = value;
+    }
+    return tree[node] = min(update(node * 2, start, (start + end) / 2, index, value), update(node * 2 + 1, (start + end) / 2 + 1, end, index, value));
 
 }
 
 int print(int node, int start, int end, int left, int right) {
-	if (right < start || end < left)  //ÀüÇô X
-		return INF;
-	if (left <= start && end <= right) { //¸ðµÎ Æ÷ÇÔ.
-		return tree[node];
-	}
-	int mid = (start + end) / 2;
-	return min(print(node * 2, start, mid, left, right),
-		print(node * 2 + 1, mid + 1, end, left, right)); //´ÙÀ½ ±¸°£À¸·Î.
+    if (right < start || end < left)  //ï¿½ï¿½ï¿½ï¿½ X
+        return INF;
+    if (left <= start && end <= right) { //ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+        return tree[node];
+    }
+    int mid = (start + end) / 2;
+    return min(print(node * 2, start, mid, left, right),
+               print(node * 2 + 1, mid + 1, end, left, right)); //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 }
 
 int main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-	cin >> N; value.resize(N);
-	for (int i = 0; i < N; i++) {
-		cin >> temp;
-		value[i] = temp;
-	}
-	pos = pow(2, (int)ceil(log2(N)) - 1);
-	tree.resize(1 << ((int)ceil(log2(N)) + 1));
-	init(1, 0, N - 1);
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cin >> N; value.resize(N);
+    for (int i = 0; i < N; i++) {
+        cin >> temp;
+        value[i] = temp;
+    }
+    pos = pow(2, (int)ceil(log2(N)) - 1);
+    tree.resize(1 << ((int)ceil(log2(N)) + 1));
+    init(1, 0, N - 1);
 
-	cin >> qn;
-	while (qn--) {
-		cin >> q;
-		if (q == 1) {
-			int idx, value;
-			cin >> idx >> value;
-			update(1, 0, N - 1, idx - 1, value);
+    cin >> qn;
+    while (qn--) {
+        cin >> q;
+        if (q == 1) {
+            int idx, value;
+            cin >> idx >> value;
+            update(1, 0, N - 1, idx - 1, value);
 
-		}
-		else if (q == 2) {
-			int left, right;
-			cin >> left >> right;
-			cout << print(1, 0, N - 1, left - 1, right - 1) << '\n';
-		}
-	}
+        }
+        else if (q == 2) {
+            int left, right;
+            cin >> left >> right;
+            cout << print(1, 0, N - 1, left - 1, right - 1) << '\n';
+        }
+    }
 
 }

@@ -4,4 +4,4 @@ project(BOJ_Algorithm)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ_Algorithm
-        DP/1135_뉴스전하기.cpp)
+        Segment_Tree/1280_나무심기.cpp)

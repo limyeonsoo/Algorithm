@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/ysl/BOJ-Algorithm/DP/1135_뉴스전하기.cpp
+/Users/ysl/BOJ-Algorithm/Segment_Tree/1280_나무심기.cpp
 iostream
+-
+algorithm
 -
 vector
 -
-algorithm
+cmath
 -
 

@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-문자열/1339_단어_수학.o: 문자열/1339_단어_수학.cpp.o
+DP/1135_뉴스전하기.o: DP/1135_뉴스전하기.cpp.o
 
-.PHONY : 문자열/1339_단어_수학.o
+.PHONY : DP/1135_뉴스전하기.o
 
 # target to build an object file
-문자열/1339_단어_수학.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/문자열/1339_단어_수학.cpp.o
-.PHONY : 문자열/1339_단어_수학.cpp.o
+DP/1135_뉴스전하기.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DP/1135_뉴스전하기.cpp.o
+.PHONY : DP/1135_뉴스전하기.cpp.o
 
-문자열/1339_단어_수학.i: 문자열/1339_단어_수학.cpp.i
+DP/1135_뉴스전하기.i: DP/1135_뉴스전하기.cpp.i
 
-.PHONY : 문자열/1339_단어_수학.i
+.PHONY : DP/1135_뉴스전하기.i
 
 # target to preprocess a source file
-문자열/1339_단어_수학.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/문자열/1339_단어_수학.cpp.i
-.PHONY : 문자열/1339_단어_수학.cpp.i
+DP/1135_뉴스전하기.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DP/1135_뉴스전하기.cpp.i
+.PHONY : DP/1135_뉴스전하기.cpp.i
 
-문자열/1339_단어_수학.s: 문자열/1339_단어_수학.cpp.s
+DP/1135_뉴스전하기.s: DP/1135_뉴스전하기.cpp.s
 
-.PHONY : 문자열/1339_단어_수학.s
+.PHONY : DP/1135_뉴스전하기.s
 
 # target to generate assembly for a file
-문자열/1339_단어_수학.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/문자열/1339_단어_수학.cpp.s
-.PHONY : 문자열/1339_단어_수학.cpp.s
+DP/1135_뉴스전하기.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DP/1135_뉴스전하기.cpp.s
+.PHONY : DP/1135_뉴스전하기.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... 문자열/1339_단어_수학.o"
-	@echo "... 문자열/1339_단어_수학.i"
-	@echo "... 문자열/1339_단어_수학.s"
+	@echo "... DP/1135_뉴스전하기.o"
+	@echo "... DP/1135_뉴스전하기.i"
+	@echo "... DP/1135_뉴스전하기.s"
 .PHONY : help
 
 

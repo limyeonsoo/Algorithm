@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ysl/BOJ-Algorithm/문자열/1339 단어 수학.cpp" "/Users/ysl/BOJ-Algorithm/cmake-build-debug/CMakeFiles/BOJ_Algorithm.dir/문자열/1339_단어_수학.cpp.o"
+  "/Users/ysl/BOJ-Algorithm/DP/1135_뉴스전하기.cpp" "/Users/ysl/BOJ-Algorithm/cmake-build-debug/CMakeFiles/BOJ_Algorithm.dir/DP/1135_뉴스전하기.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

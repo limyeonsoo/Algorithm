@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-Segment_Tree/1280_나무심기.o: Segment_Tree/1280_나무심기.cpp.o
+Tree/3176_도로네트워크.o: Tree/3176_도로네트워크.cpp.o
 
-.PHONY : Segment_Tree/1280_나무심기.o
+.PHONY : Tree/3176_도로네트워크.o
 
 # target to build an object file
-Segment_Tree/1280_나무심기.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Segment_Tree/1280_나무심기.cpp.o
-.PHONY : Segment_Tree/1280_나무심기.cpp.o
+Tree/3176_도로네트워크.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Tree/3176_도로네트워크.cpp.o
+.PHONY : Tree/3176_도로네트워크.cpp.o
 
-Segment_Tree/1280_나무심기.i: Segment_Tree/1280_나무심기.cpp.i
+Tree/3176_도로네트워크.i: Tree/3176_도로네트워크.cpp.i
 
-.PHONY : Segment_Tree/1280_나무심기.i
+.PHONY : Tree/3176_도로네트워크.i
 
 # target to preprocess a source file
-Segment_Tree/1280_나무심기.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Segment_Tree/1280_나무심기.cpp.i
-.PHONY : Segment_Tree/1280_나무심기.cpp.i
+Tree/3176_도로네트워크.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Tree/3176_도로네트워크.cpp.i
+.PHONY : Tree/3176_도로네트워크.cpp.i
 
-Segment_Tree/1280_나무심기.s: Segment_Tree/1280_나무심기.cpp.s
+Tree/3176_도로네트워크.s: Tree/3176_도로네트워크.cpp.s
 
-.PHONY : Segment_Tree/1280_나무심기.s
+.PHONY : Tree/3176_도로네트워크.s
 
 # target to generate assembly for a file
-Segment_Tree/1280_나무심기.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Segment_Tree/1280_나무심기.cpp.s
-.PHONY : Segment_Tree/1280_나무심기.cpp.s
+Tree/3176_도로네트워크.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Tree/3176_도로네트워크.cpp.s
+.PHONY : Tree/3176_도로네트워크.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... Segment_Tree/1280_나무심기.o"
-	@echo "... Segment_Tree/1280_나무심기.i"
-	@echo "... Segment_Tree/1280_나무심기.s"
+	@echo "... Tree/3176_도로네트워크.o"
+	@echo "... Tree/3176_도로네트워크.i"
+	@echo "... Tree/3176_도로네트워크.s"
 .PHONY : help
 
 

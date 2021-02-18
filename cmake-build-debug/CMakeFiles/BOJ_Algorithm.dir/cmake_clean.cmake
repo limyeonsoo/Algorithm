@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "BOJ_Algorithm"
   "BOJ_Algorithm.pdb"
-  "CMakeFiles/BOJ_Algorithm.dir/Segment_Tree/1280_나무심기.cpp.o"
+  "CMakeFiles/BOJ_Algorithm.dir/Tree/3176_도로네트워크.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

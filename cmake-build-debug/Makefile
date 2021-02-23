@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-Tree/3176_도로네트워크.o: Tree/3176_도로네트워크.cpp.o
+문자열/14725_개미굴2T.o: 문자열/14725_개미굴2T.cpp.o
 
-.PHONY : Tree/3176_도로네트워크.o
+.PHONY : 문자열/14725_개미굴2T.o
 
 # target to build an object file
-Tree/3176_도로네트워크.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Tree/3176_도로네트워크.cpp.o
-.PHONY : Tree/3176_도로네트워크.cpp.o
+문자열/14725_개미굴2T.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/문자열/14725_개미굴2T.cpp.o
+.PHONY : 문자열/14725_개미굴2T.cpp.o
 
-Tree/3176_도로네트워크.i: Tree/3176_도로네트워크.cpp.i
+문자열/14725_개미굴2T.i: 문자열/14725_개미굴2T.cpp.i
 
-.PHONY : Tree/3176_도로네트워크.i
+.PHONY : 문자열/14725_개미굴2T.i
 
 # target to preprocess a source file
-Tree/3176_도로네트워크.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Tree/3176_도로네트워크.cpp.i
-.PHONY : Tree/3176_도로네트워크.cpp.i
+문자열/14725_개미굴2T.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/문자열/14725_개미굴2T.cpp.i
+.PHONY : 문자열/14725_개미굴2T.cpp.i
 
-Tree/3176_도로네트워크.s: Tree/3176_도로네트워크.cpp.s
+문자열/14725_개미굴2T.s: 문자열/14725_개미굴2T.cpp.s
 
-.PHONY : Tree/3176_도로네트워크.s
+.PHONY : 문자열/14725_개미굴2T.s
 
 # target to generate assembly for a file
-Tree/3176_도로네트워크.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Tree/3176_도로네트워크.cpp.s
-.PHONY : Tree/3176_도로네트워크.cpp.s
+문자열/14725_개미굴2T.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/문자열/14725_개미굴2T.cpp.s
+.PHONY : 문자열/14725_개미굴2T.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... Tree/3176_도로네트워크.o"
-	@echo "... Tree/3176_도로네트워크.i"
-	@echo "... Tree/3176_도로네트워크.s"
+	@echo "... 문자열/14725_개미굴2T.o"
+	@echo "... 문자열/14725_개미굴2T.i"
+	@echo "... 문자열/14725_개미굴2T.s"
 .PHONY : help
 
 

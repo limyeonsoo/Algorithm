@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/ysl/BOJ-Algorithm/문자열/14725_개미굴2T.cpp
+/Users/ysl/BOJ-Algorithm/최단경로/1507_궁금한 민호.cpp
 iostream
--
-algorithm
 -
 vector
 -
-string
--
-unordered_map
--
-set
+algorithm
 -
 

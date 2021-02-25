@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ysl/BOJ-Algorithm/문자열/14725_개미굴2T.cpp">
+		<Unit filename="/Users/ysl/BOJ-Algorithm/최단경로/1507_궁금한 민호.cpp">
 			<Option target="BOJ_Algorithm"/>
 		</Unit>
 		<Unit filename="/Users/ysl/BOJ-Algorithm/CMakeLists.txt">

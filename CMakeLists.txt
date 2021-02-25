@@ -4,4 +4,4 @@ project(BOJ_Algorithm)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ_Algorithm
-        문자열/14725_개미굴2T.cpp)
+        "최단경로/1507_궁금한 민호.cpp")

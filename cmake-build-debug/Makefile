@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-문자열/14725_개미굴2T.o: 문자열/14725_개미굴2T.cpp.o
+최단경로/1507_궁금한_민호.o: 최단경로/1507_궁금한_민호.cpp.o
 
-.PHONY : 문자열/14725_개미굴2T.o
+.PHONY : 최단경로/1507_궁금한_민호.o
 
 # target to build an object file
-문자열/14725_개미굴2T.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/문자열/14725_개미굴2T.cpp.o
-.PHONY : 문자열/14725_개미굴2T.cpp.o
+최단경로/1507_궁금한_민호.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/최단경로/1507_궁금한_민호.cpp.o
+.PHONY : 최단경로/1507_궁금한_민호.cpp.o
 
-문자열/14725_개미굴2T.i: 문자열/14725_개미굴2T.cpp.i
+최단경로/1507_궁금한_민호.i: 최단경로/1507_궁금한_민호.cpp.i
 
-.PHONY : 문자열/14725_개미굴2T.i
+.PHONY : 최단경로/1507_궁금한_민호.i
 
 # target to preprocess a source file
-문자열/14725_개미굴2T.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/문자열/14725_개미굴2T.cpp.i
-.PHONY : 문자열/14725_개미굴2T.cpp.i
+최단경로/1507_궁금한_민호.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/최단경로/1507_궁금한_민호.cpp.i
+.PHONY : 최단경로/1507_궁금한_민호.cpp.i
 
-문자열/14725_개미굴2T.s: 문자열/14725_개미굴2T.cpp.s
+최단경로/1507_궁금한_민호.s: 최단경로/1507_궁금한_민호.cpp.s
 
-.PHONY : 문자열/14725_개미굴2T.s
+.PHONY : 최단경로/1507_궁금한_민호.s
 
 # target to generate assembly for a file
-문자열/14725_개미굴2T.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/문자열/14725_개미굴2T.cpp.s
-.PHONY : 문자열/14725_개미굴2T.cpp.s
+최단경로/1507_궁금한_민호.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/최단경로/1507_궁금한_민호.cpp.s
+.PHONY : 최단경로/1507_궁금한_민호.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... 문자열/14725_개미굴2T.o"
-	@echo "... 문자열/14725_개미굴2T.i"
-	@echo "... 문자열/14725_개미굴2T.s"
+	@echo "... 최단경로/1507_궁금한_민호.o"
+	@echo "... 최단경로/1507_궁금한_민호.i"
+	@echo "... 최단경로/1507_궁금한_민호.s"
 .PHONY : help
 
 

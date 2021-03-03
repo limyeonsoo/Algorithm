@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-최단경로/1507_궁금한_민호.o: 최단경로/1507_궁금한_민호.cpp.o
+DFSBFS/LeetCode_Swim_in_Rising_Water.o: DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.o
 
-.PHONY : 최단경로/1507_궁금한_민호.o
+.PHONY : DFSBFS/LeetCode_Swim_in_Rising_Water.o
 
 # target to build an object file
-최단경로/1507_궁금한_민호.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/최단경로/1507_궁금한_민호.cpp.o
-.PHONY : 최단경로/1507_궁금한_민호.cpp.o
+DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.o
+.PHONY : DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.o
 
-최단경로/1507_궁금한_민호.i: 최단경로/1507_궁금한_민호.cpp.i
+DFSBFS/LeetCode_Swim_in_Rising_Water.i: DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.i
 
-.PHONY : 최단경로/1507_궁금한_민호.i
+.PHONY : DFSBFS/LeetCode_Swim_in_Rising_Water.i
 
 # target to preprocess a source file
-최단경로/1507_궁금한_민호.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/최단경로/1507_궁금한_민호.cpp.i
-.PHONY : 최단경로/1507_궁금한_민호.cpp.i
+DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.i
+.PHONY : DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.i
 
-최단경로/1507_궁금한_민호.s: 최단경로/1507_궁금한_민호.cpp.s
+DFSBFS/LeetCode_Swim_in_Rising_Water.s: DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.s
 
-.PHONY : 최단경로/1507_궁금한_민호.s
+.PHONY : DFSBFS/LeetCode_Swim_in_Rising_Water.s
 
 # target to generate assembly for a file
-최단경로/1507_궁금한_민호.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/최단경로/1507_궁금한_민호.cpp.s
-.PHONY : 최단경로/1507_궁금한_민호.cpp.s
+DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.s
+.PHONY : DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... 최단경로/1507_궁금한_민호.o"
-	@echo "... 최단경로/1507_궁금한_민호.i"
-	@echo "... 최단경로/1507_궁금한_민호.s"
+	@echo "... DFSBFS/LeetCode_Swim_in_Rising_Water.o"
+	@echo "... DFSBFS/LeetCode_Swim_in_Rising_Water.i"
+	@echo "... DFSBFS/LeetCode_Swim_in_Rising_Water.s"
 .PHONY : help
 
 

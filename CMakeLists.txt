@@ -4,4 +4,4 @@ project(BOJ_Algorithm)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ_Algorithm
-        "DFSBFS/LeetCode Swim in Rising Water.cpp")
+        Tree/8012_한동이는영업사원.cpp)

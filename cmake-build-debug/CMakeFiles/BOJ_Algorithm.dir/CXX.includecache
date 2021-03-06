@@ -6,12 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/ysl/BOJ-Algorithm/DFSBFS/LeetCode Swim in Rising Water.cpp
+/Users/ysl/BOJ-Algorithm/Binary_Search/5821_쌀 창고.cpp
 iostream
 -
 vector
--
-queue
 -
 algorithm
 -

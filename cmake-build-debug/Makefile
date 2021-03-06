@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-DFSBFS/LeetCode_Swim_in_Rising_Water.o: DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.o
+prefixSum/5821_쌀_창고.o: prefixSum/5821_쌀_창고.cpp.o
 
-.PHONY : DFSBFS/LeetCode_Swim_in_Rising_Water.o
+.PHONY : prefixSum/5821_쌀_창고.o
 
 # target to build an object file
-DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.o
-.PHONY : DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.o
+prefixSum/5821_쌀_창고.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.o
+.PHONY : prefixSum/5821_쌀_창고.cpp.o
 
-DFSBFS/LeetCode_Swim_in_Rising_Water.i: DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.i
+prefixSum/5821_쌀_창고.i: prefixSum/5821_쌀_창고.cpp.i
 
-.PHONY : DFSBFS/LeetCode_Swim_in_Rising_Water.i
+.PHONY : prefixSum/5821_쌀_창고.i
 
 # target to preprocess a source file
-DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.i
-.PHONY : DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.i
+prefixSum/5821_쌀_창고.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.i
+.PHONY : prefixSum/5821_쌀_창고.cpp.i
 
-DFSBFS/LeetCode_Swim_in_Rising_Water.s: DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.s
+prefixSum/5821_쌀_창고.s: prefixSum/5821_쌀_창고.cpp.s
 
-.PHONY : DFSBFS/LeetCode_Swim_in_Rising_Water.s
+.PHONY : prefixSum/5821_쌀_창고.s
 
 # target to generate assembly for a file
-DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.s
-.PHONY : DFSBFS/LeetCode_Swim_in_Rising_Water.cpp.s
+prefixSum/5821_쌀_창고.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.s
+.PHONY : prefixSum/5821_쌀_창고.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... DFSBFS/LeetCode_Swim_in_Rising_Water.o"
-	@echo "... DFSBFS/LeetCode_Swim_in_Rising_Water.i"
-	@echo "... DFSBFS/LeetCode_Swim_in_Rising_Water.s"
+	@echo "... prefixSum/5821_쌀_창고.o"
+	@echo "... prefixSum/5821_쌀_창고.i"
+	@echo "... prefixSum/5821_쌀_창고.s"
 .PHONY : help
 
 

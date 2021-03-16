@@ -77,27 +77,27 @@ include CMakeFiles/BOJ_Algorithm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BOJ_Algorithm.dir/flags.make
 
-CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.o: CMakeFiles/BOJ_Algorithm.dir/flags.make
-CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.o: ../prefixSum/5821_쌀\ 창고.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ysl/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.o -c "/Users/ysl/BOJ-Algorithm/prefixSum/5821_쌀 창고.cpp"
+CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.o: CMakeFiles/BOJ_Algorithm.dir/flags.make
+CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.o: ../divide_and_conquer/2447_별찍기10.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ysl/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.o -c /Users/ysl/BOJ-Algorithm/divide_and_conquer/2447_별찍기10.cpp
 
-CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ysl/BOJ-Algorithm/prefixSum/5821_쌀 창고.cpp" > CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.i
+CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ysl/BOJ-Algorithm/divide_and_conquer/2447_별찍기10.cpp > CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.i
 
-CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ysl/BOJ-Algorithm/prefixSum/5821_쌀 창고.cpp" -o CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.s
+CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ysl/BOJ-Algorithm/divide_and_conquer/2447_별찍기10.cpp -o CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.s
 
 # Object files for target BOJ_Algorithm
 BOJ_Algorithm_OBJECTS = \
-"CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.o"
+"CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.o"
 
 # External object files for target BOJ_Algorithm
 BOJ_Algorithm_EXTERNAL_OBJECTS =
 
-BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.o
+BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.o
 BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/build.make
 BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ysl/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BOJ_Algorithm"

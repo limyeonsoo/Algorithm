@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/ysl/BOJ-Algorithm/Binary_Search/5821_쌀 창고.cpp
+/Users/ysl/BOJ-Algorithm/divide_and_conquer/2447_별찍기10.cpp
 iostream
 -
 vector
--
-algorithm
 -
 

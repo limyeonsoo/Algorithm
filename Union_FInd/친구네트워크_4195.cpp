@@ -1,42 +1,58 @@
-//#include <iostream>
-//#include <map>
-//#include <string>
-//using namespace std;
-//
-//map <string, int> m;
-//int T, N;
-//int parents[200002];
-//string temp1, temp2;
-//
-//int Find(int x) {
-//	if (parents[x] < 0)return x;
-//	return parents[x] = Find(parents[x]); 
-//}
-//
-//void Union(int x, int y) {
-//	int root_x, root_y;
-//	root_x = Find(x); root_y = Find(y);  // root³ëµåµµ ¹Ù²ãÁü.
-//	if (root_x != root_y) {
-//		parents[root_x] += parents[root_y];
-//		parents[y] = x;
-//	}
-//}
-//
-//int main() {
-//	ios_base::sync_with_stdio(false);
-//	cin.tie(NULL);
-//	cin >> T;
-//	while (T--) {
-//		cin >> N; m.clear();
-//		for (int i = 0; i <= N * 2; i++) parents[i] = -1;
-//		int cnt = 1;
-//		for (int i = 1; i <= N; i++) {
-//			cin >> temp1 >> temp2;
-//			if (m.find(temp1) == m.end()) m[temp1] = cnt++; // mapping 
-//			if (m.find(temp2) == m.end()) m[temp2] = cnt++;  // mapping
-//			Union(m[temp1], m[temp2]);
-//			cout << parents[1] * (-1) << '\n';
-//		}
-//	}
-//}
+#include <iostream>
+#include <string>
+#include <vector>
+#include <unordered_map>
 
+using namespace std;
+unordered_map <string,int> network;
+vector <int> parents;
+vector <int> cnt;
+int T, F;
+
+int Find(int x){
+    if(parents[x] == x) return x;
+    return parents[x] = Find(parents[x]);
+}
+void Union(int x, int y){
+    int X = Find(x), Y = Find(y);
+    if(X != Y) {
+        cnt[X] = cnt[X]+cnt[Y];
+        parents[Y] = X;
+    }
+}
+
+void input(){
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+    cin >> T;
+    while(T--){
+        cin >> F;
+        network.clear();
+        parents.clear();
+        parents.resize(F*2);
+        cnt.clear(); cnt.resize(2*F);
+        for(int i=0; i<F*2; i++){
+            parents[i] = i;
+            cnt[i] = 1;
+        }
+        for(int i=0; i<F; i++){
+            string friendA, friendB;
+            cin >> friendA >> friendB;
+            if(network.find(friendA) == network.end()){
+                network.insert({friendA, network.size()});
+            }
+            if(network.find(friendB) == network.end()) {
+                network.insert({friendB, network.size()});
+            }
+            Union(network[friendA], network[friendB]);
+//            for(int i=0; i<2*F; i++){
+//                cout << i<<" : "<<parents[i]<<"    "<<cnt[i]<<'\n';
+//            }
+            cout << cnt[parents[network[friendA]]]<<'\n';
+
+        }
+
+    }
+}
+int main(){
+    input();
+}

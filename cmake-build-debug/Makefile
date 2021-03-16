@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-prefixSum/5821_쌀_창고.o: prefixSum/5821_쌀_창고.cpp.o
+divide_and_conquer/2447_별찍기10.o: divide_and_conquer/2447_별찍기10.cpp.o
 
-.PHONY : prefixSum/5821_쌀_창고.o
+.PHONY : divide_and_conquer/2447_별찍기10.o
 
 # target to build an object file
-prefixSum/5821_쌀_창고.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.o
-.PHONY : prefixSum/5821_쌀_창고.cpp.o
+divide_and_conquer/2447_별찍기10.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.o
+.PHONY : divide_and_conquer/2447_별찍기10.cpp.o
 
-prefixSum/5821_쌀_창고.i: prefixSum/5821_쌀_창고.cpp.i
+divide_and_conquer/2447_별찍기10.i: divide_and_conquer/2447_별찍기10.cpp.i
 
-.PHONY : prefixSum/5821_쌀_창고.i
+.PHONY : divide_and_conquer/2447_별찍기10.i
 
 # target to preprocess a source file
-prefixSum/5821_쌀_창고.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.i
-.PHONY : prefixSum/5821_쌀_창고.cpp.i
+divide_and_conquer/2447_별찍기10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.i
+.PHONY : divide_and_conquer/2447_별찍기10.cpp.i
 
-prefixSum/5821_쌀_창고.s: prefixSum/5821_쌀_창고.cpp.s
+divide_and_conquer/2447_별찍기10.s: divide_and_conquer/2447_별찍기10.cpp.s
 
-.PHONY : prefixSum/5821_쌀_창고.s
+.PHONY : divide_and_conquer/2447_별찍기10.s
 
 # target to generate assembly for a file
-prefixSum/5821_쌀_창고.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/prefixSum/5821_쌀_창고.cpp.s
-.PHONY : prefixSum/5821_쌀_창고.cpp.s
+divide_and_conquer/2447_별찍기10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.s
+.PHONY : divide_and_conquer/2447_별찍기10.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... prefixSum/5821_쌀_창고.o"
-	@echo "... prefixSum/5821_쌀_창고.i"
-	@echo "... prefixSum/5821_쌀_창고.s"
+	@echo "... divide_and_conquer/2447_별찍기10.o"
+	@echo "... divide_and_conquer/2447_별찍기10.i"
+	@echo "... divide_and_conquer/2447_별찍기10.s"
 .PHONY : help
 
 

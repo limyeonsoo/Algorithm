@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ysl/BOJ-Algorithm/prefixSum/5821_쌀 창고.cpp">
+		<Unit filename="/Users/ysl/BOJ-Algorithm/divide_and_conquer/2447_별찍기10.cpp">
 			<Option target="BOJ_Algorithm"/>
 		</Unit>
 		<Unit filename="/Users/ysl/BOJ-Algorithm/CMakeLists.txt">

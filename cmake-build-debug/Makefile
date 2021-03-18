@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-divide_and_conquer/2447_별찍기10.o: divide_and_conquer/2447_별찍기10.cpp.o
+divide_and_conquer/10827_a^b.o: divide_and_conquer/10827_a^b.cpp.o
 
-.PHONY : divide_and_conquer/2447_별찍기10.o
+.PHONY : divide_and_conquer/10827_a^b.o
 
 # target to build an object file
-divide_and_conquer/2447_별찍기10.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.o
-.PHONY : divide_and_conquer/2447_별찍기10.cpp.o
+divide_and_conquer/10827_a^b.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.o"
+.PHONY : divide_and_conquer/10827_a^b.cpp.o
 
-divide_and_conquer/2447_별찍기10.i: divide_and_conquer/2447_별찍기10.cpp.i
+divide_and_conquer/10827_a^b.i: divide_and_conquer/10827_a^b.cpp.i
 
-.PHONY : divide_and_conquer/2447_별찍기10.i
+.PHONY : divide_and_conquer/10827_a^b.i
 
 # target to preprocess a source file
-divide_and_conquer/2447_별찍기10.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.i
-.PHONY : divide_and_conquer/2447_별찍기10.cpp.i
+divide_and_conquer/10827_a^b.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.i"
+.PHONY : divide_and_conquer/10827_a^b.cpp.i
 
-divide_and_conquer/2447_별찍기10.s: divide_and_conquer/2447_별찍기10.cpp.s
+divide_and_conquer/10827_a^b.s: divide_and_conquer/10827_a^b.cpp.s
 
-.PHONY : divide_and_conquer/2447_별찍기10.s
+.PHONY : divide_and_conquer/10827_a^b.s
 
 # target to generate assembly for a file
-divide_and_conquer/2447_별찍기10.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2447_별찍기10.cpp.s
-.PHONY : divide_and_conquer/2447_별찍기10.cpp.s
+divide_and_conquer/10827_a^b.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.s"
+.PHONY : divide_and_conquer/10827_a^b.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... divide_and_conquer/2447_별찍기10.o"
-	@echo "... divide_and_conquer/2447_별찍기10.i"
-	@echo "... divide_and_conquer/2447_별찍기10.s"
+	@echo "... divide_and_conquer/10827_a^b.o"
+	@echo "... divide_and_conquer/10827_a^b.i"
+	@echo "... divide_and_conquer/10827_a^b.s"
 .PHONY : help
 
 

@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ysl/Desktop/BOJ-Algorithm/samsung/17472_다리만들기.cpp">
+		<Unit filename="/Users/ysl/Desktop/BOJ-Algorithm/Graph/17472_다리만들기2_kruskal.cpp">
 			<Option target="BOJ_Algorithm"/>
 		</Unit>
 		<Unit filename="/Users/ysl/Desktop/BOJ-Algorithm/CMakeLists.txt">

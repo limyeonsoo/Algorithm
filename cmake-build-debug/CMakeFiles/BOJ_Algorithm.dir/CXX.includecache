@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/ysl/Desktop/BOJ-Algorithm/samsung/17472_다리만들기.cpp
+/Users/ysl/Desktop/BOJ-Algorithm/Graph/17472_다리만들기2_kruskal.cpp
 iostream
 -
 vector

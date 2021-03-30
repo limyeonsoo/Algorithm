@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-samsung/17472_다리만들기.o: samsung/17472_다리만들기.cpp.o
+Graph/17472_다리만들기2_kruskal.o: Graph/17472_다리만들기2_kruskal.cpp.o
 
-.PHONY : samsung/17472_다리만들기.o
+.PHONY : Graph/17472_다리만들기2_kruskal.o
 
 # target to build an object file
-samsung/17472_다리만들기.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o
-.PHONY : samsung/17472_다리만들기.cpp.o
+Graph/17472_다리만들기2_kruskal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.o
+.PHONY : Graph/17472_다리만들기2_kruskal.cpp.o
 
-samsung/17472_다리만들기.i: samsung/17472_다리만들기.cpp.i
+Graph/17472_다리만들기2_kruskal.i: Graph/17472_다리만들기2_kruskal.cpp.i
 
-.PHONY : samsung/17472_다리만들기.i
+.PHONY : Graph/17472_다리만들기2_kruskal.i
 
 # target to preprocess a source file
-samsung/17472_다리만들기.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.i
-.PHONY : samsung/17472_다리만들기.cpp.i
+Graph/17472_다리만들기2_kruskal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.i
+.PHONY : Graph/17472_다리만들기2_kruskal.cpp.i
 
-samsung/17472_다리만들기.s: samsung/17472_다리만들기.cpp.s
+Graph/17472_다리만들기2_kruskal.s: Graph/17472_다리만들기2_kruskal.cpp.s
 
-.PHONY : samsung/17472_다리만들기.s
+.PHONY : Graph/17472_다리만들기2_kruskal.s
 
 # target to generate assembly for a file
-samsung/17472_다리만들기.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.s
-.PHONY : samsung/17472_다리만들기.cpp.s
+Graph/17472_다리만들기2_kruskal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.s
+.PHONY : Graph/17472_다리만들기2_kruskal.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... samsung/17472_다리만들기.o"
-	@echo "... samsung/17472_다리만들기.i"
-	@echo "... samsung/17472_다리만들기.s"
+	@echo "... Graph/17472_다리만들기2_kruskal.o"
+	@echo "... Graph/17472_다리만들기2_kruskal.i"
+	@echo "... Graph/17472_다리만들기2_kruskal.s"
 .PHONY : help
 
 

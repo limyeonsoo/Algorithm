@@ -4,4 +4,4 @@ project(BOJ_Algorithm)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ_Algorithm
-        samsung/17472_다리만들기.cpp)
+        Graph/17472_다리만들기2_kruskal.cpp)

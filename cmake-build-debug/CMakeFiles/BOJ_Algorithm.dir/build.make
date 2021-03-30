@@ -77,27 +77,27 @@ include CMakeFiles/BOJ_Algorithm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BOJ_Algorithm.dir/flags.make
 
-CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o: CMakeFiles/BOJ_Algorithm.dir/flags.make
-CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o: ../samsung/17472_다리만들기.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o -c /Users/ysl/Desktop/BOJ-Algorithm/samsung/17472_다리만들기.cpp
+CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.o: CMakeFiles/BOJ_Algorithm.dir/flags.make
+CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.o: ../Graph/17472_다리만들기2_kruskal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.o -c /Users/ysl/Desktop/BOJ-Algorithm/Graph/17472_다리만들기2_kruskal.cpp
 
-CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ysl/Desktop/BOJ-Algorithm/samsung/17472_다리만들기.cpp > CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.i
+CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ysl/Desktop/BOJ-Algorithm/Graph/17472_다리만들기2_kruskal.cpp > CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.i
 
-CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ysl/Desktop/BOJ-Algorithm/samsung/17472_다리만들기.cpp -o CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.s
+CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ysl/Desktop/BOJ-Algorithm/Graph/17472_다리만들기2_kruskal.cpp -o CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.s
 
 # Object files for target BOJ_Algorithm
 BOJ_Algorithm_OBJECTS = \
-"CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o"
+"CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.o"
 
 # External object files for target BOJ_Algorithm
 BOJ_Algorithm_EXTERNAL_OBJECTS =
 
-BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o
+BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.o
 BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/build.make
 BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BOJ_Algorithm"

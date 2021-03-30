@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ysl/BOJ-Algorithm
+CMAKE_SOURCE_DIR = /Users/ysl/Desktop/BOJ-Algorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ysl/BOJ-Algorithm/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ysl/BOJ-Algorithm/cmake-build-debug/CMakeFiles /Users/ysl/BOJ-Algorithm/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles /Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ysl/BOJ-Algorithm/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-divide_and_conquer/10827_a^b.o: divide_and_conquer/10827_a^b.cpp.o
+samsung/17472_다리만들기.o: samsung/17472_다리만들기.cpp.o
 
-.PHONY : divide_and_conquer/10827_a^b.o
+.PHONY : samsung/17472_다리만들기.o
 
 # target to build an object file
-divide_and_conquer/10827_a^b.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.o"
-.PHONY : divide_and_conquer/10827_a^b.cpp.o
+samsung/17472_다리만들기.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o
+.PHONY : samsung/17472_다리만들기.cpp.o
 
-divide_and_conquer/10827_a^b.i: divide_and_conquer/10827_a^b.cpp.i
+samsung/17472_다리만들기.i: samsung/17472_다리만들기.cpp.i
 
-.PHONY : divide_and_conquer/10827_a^b.i
+.PHONY : samsung/17472_다리만들기.i
 
 # target to preprocess a source file
-divide_and_conquer/10827_a^b.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.i"
-.PHONY : divide_and_conquer/10827_a^b.cpp.i
+samsung/17472_다리만들기.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.i
+.PHONY : samsung/17472_다리만들기.cpp.i
 
-divide_and_conquer/10827_a^b.s: divide_and_conquer/10827_a^b.cpp.s
+samsung/17472_다리만들기.s: samsung/17472_다리만들기.cpp.s
 
-.PHONY : divide_and_conquer/10827_a^b.s
+.PHONY : samsung/17472_다리만들기.s
 
 # target to generate assembly for a file
-divide_and_conquer/10827_a^b.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.s"
-.PHONY : divide_and_conquer/10827_a^b.cpp.s
+samsung/17472_다리만들기.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.s
+.PHONY : samsung/17472_다리만들기.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... divide_and_conquer/10827_a^b.o"
-	@echo "... divide_and_conquer/10827_a^b.i"
-	@echo "... divide_and_conquer/10827_a^b.s"
+	@echo "... samsung/17472_다리만들기.o"
+	@echo "... samsung/17472_다리만들기.i"
+	@echo "... samsung/17472_다리만들기.s"
 .PHONY : help
 
 

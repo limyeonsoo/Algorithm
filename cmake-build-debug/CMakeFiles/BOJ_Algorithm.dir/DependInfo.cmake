@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ysl/BOJ-Algorithm/divide_and_conquer/10827_a^b.cpp" "/Users/ysl/BOJ-Algorithm/cmake-build-debug/CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.o"
+  "/Users/ysl/Desktop/BOJ-Algorithm/samsung/17472_다리만들기.cpp" "/Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

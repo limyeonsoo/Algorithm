@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ysl/BOJ-Algorithm
+CMAKE_SOURCE_DIR = /Users/ysl/Desktop/BOJ-Algorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ysl/BOJ-Algorithm/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BOJ_Algorithm.dir/depend.make
@@ -77,30 +77,30 @@ include CMakeFiles/BOJ_Algorithm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BOJ_Algorithm.dir/flags.make
 
-CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.o: CMakeFiles/BOJ_Algorithm.dir/flags.make
-CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.o: ../divide_and_conquer/10827_a^b.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ysl/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.o" -c "/Users/ysl/BOJ-Algorithm/divide_and_conquer/10827_a^b.cpp"
+CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o: CMakeFiles/BOJ_Algorithm.dir/flags.make
+CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o: ../samsung/17472_다리만들기.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o -c /Users/ysl/Desktop/BOJ-Algorithm/samsung/17472_다리만들기.cpp
 
-CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ysl/BOJ-Algorithm/divide_and_conquer/10827_a^b.cpp" > "CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.i"
+CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ysl/Desktop/BOJ-Algorithm/samsung/17472_다리만들기.cpp > CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.i
 
-CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ysl/BOJ-Algorithm/divide_and_conquer/10827_a^b.cpp" -o "CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.s"
+CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ysl/Desktop/BOJ-Algorithm/samsung/17472_다리만들기.cpp -o CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.s
 
 # Object files for target BOJ_Algorithm
 BOJ_Algorithm_OBJECTS = \
-"CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.o"
+"CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o"
 
 # External object files for target BOJ_Algorithm
 BOJ_Algorithm_EXTERNAL_OBJECTS =
 
-BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/10827_a^b.cpp.o
+BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/samsung/17472_다리만들기.cpp.o
 BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/build.make
 BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ysl/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BOJ_Algorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BOJ_Algorithm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BOJ_Algorithm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +113,6 @@ CMakeFiles/BOJ_Algorithm.dir/clean:
 .PHONY : CMakeFiles/BOJ_Algorithm.dir/clean
 
 CMakeFiles/BOJ_Algorithm.dir/depend:
-	cd /Users/ysl/BOJ-Algorithm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ysl/BOJ-Algorithm /Users/ysl/BOJ-Algorithm /Users/ysl/BOJ-Algorithm/cmake-build-debug /Users/ysl/BOJ-Algorithm/cmake-build-debug /Users/ysl/BOJ-Algorithm/cmake-build-debug/CMakeFiles/BOJ_Algorithm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ysl/Desktop/BOJ-Algorithm /Users/ysl/Desktop/BOJ-Algorithm /Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug /Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug /Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles/BOJ_Algorithm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BOJ_Algorithm.dir/depend
 

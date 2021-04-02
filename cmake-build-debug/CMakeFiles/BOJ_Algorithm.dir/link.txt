@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.o  -o BOJ_Algorithm 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.o  -o BOJ_Algorithm 

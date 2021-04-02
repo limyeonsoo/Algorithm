@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-Graph/17472_다리만들기2_kruskal.o: Graph/17472_다리만들기2_kruskal.cpp.o
+divide_and_conquer/2630_색종이_만들기.o: divide_and_conquer/2630_색종이_만들기.cpp.o
 
-.PHONY : Graph/17472_다리만들기2_kruskal.o
+.PHONY : divide_and_conquer/2630_색종이_만들기.o
 
 # target to build an object file
-Graph/17472_다리만들기2_kruskal.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.o
-.PHONY : Graph/17472_다리만들기2_kruskal.cpp.o
+divide_and_conquer/2630_색종이_만들기.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.o
+.PHONY : divide_and_conquer/2630_색종이_만들기.cpp.o
 
-Graph/17472_다리만들기2_kruskal.i: Graph/17472_다리만들기2_kruskal.cpp.i
+divide_and_conquer/2630_색종이_만들기.i: divide_and_conquer/2630_색종이_만들기.cpp.i
 
-.PHONY : Graph/17472_다리만들기2_kruskal.i
+.PHONY : divide_and_conquer/2630_색종이_만들기.i
 
 # target to preprocess a source file
-Graph/17472_다리만들기2_kruskal.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.i
-.PHONY : Graph/17472_다리만들기2_kruskal.cpp.i
+divide_and_conquer/2630_색종이_만들기.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.i
+.PHONY : divide_and_conquer/2630_색종이_만들기.cpp.i
 
-Graph/17472_다리만들기2_kruskal.s: Graph/17472_다리만들기2_kruskal.cpp.s
+divide_and_conquer/2630_색종이_만들기.s: divide_and_conquer/2630_색종이_만들기.cpp.s
 
-.PHONY : Graph/17472_다리만들기2_kruskal.s
+.PHONY : divide_and_conquer/2630_색종이_만들기.s
 
 # target to generate assembly for a file
-Graph/17472_다리만들기2_kruskal.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Graph/17472_다리만들기2_kruskal.cpp.s
-.PHONY : Graph/17472_다리만들기2_kruskal.cpp.s
+divide_and_conquer/2630_색종이_만들기.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.s
+.PHONY : divide_and_conquer/2630_색종이_만들기.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... Graph/17472_다리만들기2_kruskal.o"
-	@echo "... Graph/17472_다리만들기2_kruskal.i"
-	@echo "... Graph/17472_다리만들기2_kruskal.s"
+	@echo "... divide_and_conquer/2630_색종이_만들기.o"
+	@echo "... divide_and_conquer/2630_색종이_만들기.i"
+	@echo "... divide_and_conquer/2630_색종이_만들기.s"
 .PHONY : help
 
 

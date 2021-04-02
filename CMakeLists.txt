@@ -4,4 +4,4 @@ project(BOJ_Algorithm)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ_Algorithm
-        Graph/17472_다리만들기2_kruskal.cpp)
+       "divide_and_conquer/2630_색종이 만들기.cpp")

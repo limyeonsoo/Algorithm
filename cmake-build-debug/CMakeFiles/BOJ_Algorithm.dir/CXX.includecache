@@ -6,17 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/ysl/Desktop/BOJ-Algorithm/Graph/17472_다리만들기2_kruskal.cpp
+/Users/ysl/Desktop/BOJ-Algorithm/divide_and_conquer/2630_색종이 만들기.cpp
 iostream
 -
 vector
--
-queue
--
-algorithm
--
-bitset
--
-unordered_set
 -
 

@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/ysl/Desktop/BOJ-Algorithm/divide_and_conquer/2630_색종이 만들기.cpp
-iostream
+/Users/ysl/Desktop/BOJ-Algorithm/divide_and_conquer/2261_가장가까운두점.cpp
+cstdio
 -
 vector
+-
+cmath
+-
+set
+-
+algorithm
 -
 

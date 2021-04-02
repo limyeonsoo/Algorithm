@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-divide_and_conquer/2630_색종이_만들기.o: divide_and_conquer/2630_색종이_만들기.cpp.o
+divide_and_conquer/2261_가장가까운두점.o: divide_and_conquer/2261_가장가까운두점.cpp.o
 
-.PHONY : divide_and_conquer/2630_색종이_만들기.o
+.PHONY : divide_and_conquer/2261_가장가까운두점.o
 
 # target to build an object file
-divide_and_conquer/2630_색종이_만들기.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.o
-.PHONY : divide_and_conquer/2630_색종이_만들기.cpp.o
+divide_and_conquer/2261_가장가까운두점.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.o
+.PHONY : divide_and_conquer/2261_가장가까운두점.cpp.o
 
-divide_and_conquer/2630_색종이_만들기.i: divide_and_conquer/2630_색종이_만들기.cpp.i
+divide_and_conquer/2261_가장가까운두점.i: divide_and_conquer/2261_가장가까운두점.cpp.i
 
-.PHONY : divide_and_conquer/2630_색종이_만들기.i
+.PHONY : divide_and_conquer/2261_가장가까운두점.i
 
 # target to preprocess a source file
-divide_and_conquer/2630_색종이_만들기.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.i
-.PHONY : divide_and_conquer/2630_색종이_만들기.cpp.i
+divide_and_conquer/2261_가장가까운두점.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.i
+.PHONY : divide_and_conquer/2261_가장가까운두점.cpp.i
 
-divide_and_conquer/2630_색종이_만들기.s: divide_and_conquer/2630_색종이_만들기.cpp.s
+divide_and_conquer/2261_가장가까운두점.s: divide_and_conquer/2261_가장가까운두점.cpp.s
 
-.PHONY : divide_and_conquer/2630_색종이_만들기.s
+.PHONY : divide_and_conquer/2261_가장가까운두점.s
 
 # target to generate assembly for a file
-divide_and_conquer/2630_색종이_만들기.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.s
-.PHONY : divide_and_conquer/2630_색종이_만들기.cpp.s
+divide_and_conquer/2261_가장가까운두점.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.s
+.PHONY : divide_and_conquer/2261_가장가까운두점.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... divide_and_conquer/2630_색종이_만들기.o"
-	@echo "... divide_and_conquer/2630_색종이_만들기.i"
-	@echo "... divide_and_conquer/2630_색종이_만들기.s"
+	@echo "... divide_and_conquer/2261_가장가까운두점.o"
+	@echo "... divide_and_conquer/2261_가장가까운두점.i"
+	@echo "... divide_and_conquer/2261_가장가까운두점.s"
 .PHONY : help
 
 

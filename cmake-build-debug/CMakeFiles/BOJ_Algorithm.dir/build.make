@@ -77,27 +77,27 @@ include CMakeFiles/BOJ_Algorithm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BOJ_Algorithm.dir/flags.make
 
-CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.o: CMakeFiles/BOJ_Algorithm.dir/flags.make
-CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.o: ../divide_and_conquer/2630_색종이\ 만들기.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.o -c "/Users/ysl/Desktop/BOJ-Algorithm/divide_and_conquer/2630_색종이 만들기.cpp"
+CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.o: CMakeFiles/BOJ_Algorithm.dir/flags.make
+CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.o: ../divide_and_conquer/2261_가장가까운두점.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.o -c /Users/ysl/Desktop/BOJ-Algorithm/divide_and_conquer/2261_가장가까운두점.cpp
 
-CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ysl/Desktop/BOJ-Algorithm/divide_and_conquer/2630_색종이 만들기.cpp" > CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.i
+CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ysl/Desktop/BOJ-Algorithm/divide_and_conquer/2261_가장가까운두점.cpp > CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.i
 
-CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ysl/Desktop/BOJ-Algorithm/divide_and_conquer/2630_색종이 만들기.cpp" -o CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.s
+CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ysl/Desktop/BOJ-Algorithm/divide_and_conquer/2261_가장가까운두점.cpp -o CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.s
 
 # Object files for target BOJ_Algorithm
 BOJ_Algorithm_OBJECTS = \
-"CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.o"
+"CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.o"
 
 # External object files for target BOJ_Algorithm
 BOJ_Algorithm_EXTERNAL_OBJECTS =
 
-BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2630_색종이_만들기.cpp.o
+BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.o
 BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/build.make
 BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BOJ_Algorithm"

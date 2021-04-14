@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-divide_and_conquer/2261_가장가까운두점.o: divide_and_conquer/2261_가장가까운두점.cpp.o
+DFSBFS/7569_토마토.o: DFSBFS/7569_토마토.cpp.o
 
-.PHONY : divide_and_conquer/2261_가장가까운두점.o
+.PHONY : DFSBFS/7569_토마토.o
 
 # target to build an object file
-divide_and_conquer/2261_가장가까운두점.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.o
-.PHONY : divide_and_conquer/2261_가장가까운두점.cpp.o
+DFSBFS/7569_토마토.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DFSBFS/7569_토마토.cpp.o
+.PHONY : DFSBFS/7569_토마토.cpp.o
 
-divide_and_conquer/2261_가장가까운두점.i: divide_and_conquer/2261_가장가까운두점.cpp.i
+DFSBFS/7569_토마토.i: DFSBFS/7569_토마토.cpp.i
 
-.PHONY : divide_and_conquer/2261_가장가까운두점.i
+.PHONY : DFSBFS/7569_토마토.i
 
 # target to preprocess a source file
-divide_and_conquer/2261_가장가까운두점.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.i
-.PHONY : divide_and_conquer/2261_가장가까운두점.cpp.i
+DFSBFS/7569_토마토.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DFSBFS/7569_토마토.cpp.i
+.PHONY : DFSBFS/7569_토마토.cpp.i
 
-divide_and_conquer/2261_가장가까운두점.s: divide_and_conquer/2261_가장가까운두점.cpp.s
+DFSBFS/7569_토마토.s: DFSBFS/7569_토마토.cpp.s
 
-.PHONY : divide_and_conquer/2261_가장가까운두점.s
+.PHONY : DFSBFS/7569_토마토.s
 
 # target to generate assembly for a file
-divide_and_conquer/2261_가장가까운두점.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/divide_and_conquer/2261_가장가까운두점.cpp.s
-.PHONY : divide_and_conquer/2261_가장가까운두점.cpp.s
+DFSBFS/7569_토마토.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DFSBFS/7569_토마토.cpp.s
+.PHONY : DFSBFS/7569_토마토.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... divide_and_conquer/2261_가장가까운두점.o"
-	@echo "... divide_and_conquer/2261_가장가까운두점.i"
-	@echo "... divide_and_conquer/2261_가장가까운두점.s"
+	@echo "... DFSBFS/7569_토마토.o"
+	@echo "... DFSBFS/7569_토마토.i"
+	@echo "... DFSBFS/7569_토마토.s"
 .PHONY : help
 
 

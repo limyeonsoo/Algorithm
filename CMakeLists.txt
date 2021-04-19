@@ -4,4 +4,4 @@ project(BOJ_Algorithm)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ_Algorithm
-       DFSBFS/7569_토마토.cpp)
+       simulation&DFSBFS/20055_컨베이어벨트위의로봇.cpp)

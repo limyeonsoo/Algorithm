@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-DFSBFS/7569_토마토.o: DFSBFS/7569_토마토.cpp.o
+simulation&DFSBFS/20055_컨베이어벨트위의로봇.o: simulation&DFSBFS/20055_컨베이어벨트위의로봇.cpp.o
 
-.PHONY : DFSBFS/7569_토마토.o
+.PHONY : simulation&DFSBFS/20055_컨베이어벨트위의로봇.o
 
 # target to build an object file
-DFSBFS/7569_토마토.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DFSBFS/7569_토마토.cpp.o
-.PHONY : DFSBFS/7569_토마토.cpp.o
+simulation&DFSBFS/20055_컨베이어벨트위의로봇.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20055_컨베이어벨트위의로봇.cpp.o"
+.PHONY : simulation&DFSBFS/20055_컨베이어벨트위의로봇.cpp.o
 
-DFSBFS/7569_토마토.i: DFSBFS/7569_토마토.cpp.i
+simulation&DFSBFS/20055_컨베이어벨트위의로봇.i: simulation&DFSBFS/20055_컨베이어벨트위의로봇.cpp.i
 
-.PHONY : DFSBFS/7569_토마토.i
+.PHONY : simulation&DFSBFS/20055_컨베이어벨트위의로봇.i
 
 # target to preprocess a source file
-DFSBFS/7569_토마토.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DFSBFS/7569_토마토.cpp.i
-.PHONY : DFSBFS/7569_토마토.cpp.i
+simulation&DFSBFS/20055_컨베이어벨트위의로봇.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20055_컨베이어벨트위의로봇.cpp.i"
+.PHONY : simulation&DFSBFS/20055_컨베이어벨트위의로봇.cpp.i
 
-DFSBFS/7569_토마토.s: DFSBFS/7569_토마토.cpp.s
+simulation&DFSBFS/20055_컨베이어벨트위의로봇.s: simulation&DFSBFS/20055_컨베이어벨트위의로봇.cpp.s
 
-.PHONY : DFSBFS/7569_토마토.s
+.PHONY : simulation&DFSBFS/20055_컨베이어벨트위의로봇.s
 
 # target to generate assembly for a file
-DFSBFS/7569_토마토.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/DFSBFS/7569_토마토.cpp.s
-.PHONY : DFSBFS/7569_토마토.cpp.s
+simulation&DFSBFS/20055_컨베이어벨트위의로봇.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20055_컨베이어벨트위의로봇.cpp.s"
+.PHONY : simulation&DFSBFS/20055_컨베이어벨트위의로봇.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... DFSBFS/7569_토마토.o"
-	@echo "... DFSBFS/7569_토마토.i"
-	@echo "... DFSBFS/7569_토마토.s"
+	@echo "... simulation&DFSBFS/20055_컨베이어벨트위의로봇.o"
+	@echo "... simulation&DFSBFS/20055_컨베이어벨트위의로봇.i"
+	@echo "... simulation&DFSBFS/20055_컨베이어벨트위의로봇.s"
 .PHONY : help
 
 

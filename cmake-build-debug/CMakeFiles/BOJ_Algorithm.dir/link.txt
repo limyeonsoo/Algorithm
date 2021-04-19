@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/BOJ_Algorithm.dir/DFSBFS/7569_토마토.cpp.o  -o BOJ_Algorithm 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20055_컨베이어벨트위의로봇.cpp.o"  -o BOJ_Algorithm 

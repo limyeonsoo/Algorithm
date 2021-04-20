@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ysl/Desktop/BOJ-Algorithm/simulation&amp;DFSBFS/20055_컨베이어벨트위의로봇.cpp">
+		<Unit filename="/Users/ysl/Desktop/BOJ-Algorithm/simulation&amp;DFSBFS/20056_마법사상어와파이어볼.cpp">
 			<Option target="BOJ_Algorithm"/>
 		</Unit>
 		<Unit filename="/Users/ysl/Desktop/BOJ-Algorithm/CMakeLists.txt">

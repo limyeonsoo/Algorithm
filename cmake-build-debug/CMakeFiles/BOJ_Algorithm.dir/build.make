@@ -77,27 +77,27 @@ include CMakeFiles/BOJ_Algorithm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BOJ_Algorithm.dir/flags.make
 
-CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.o: CMakeFiles/BOJ_Algorithm.dir/flags.make
-CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.o: ../simulation&DFSBFS/20056_마법사상어와파이어볼.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.o" -c "/Users/ysl/Desktop/BOJ-Algorithm/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp"
+CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.o: CMakeFiles/BOJ_Algorithm.dir/flags.make
+CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.o: ../비트마스크/14569_시간표짜기.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.o -c /Users/ysl/Desktop/BOJ-Algorithm/비트마스크/14569_시간표짜기.cpp
 
-CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ysl/Desktop/BOJ-Algorithm/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp" > "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.i"
+CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ysl/Desktop/BOJ-Algorithm/비트마스크/14569_시간표짜기.cpp > CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.i
 
-CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ysl/Desktop/BOJ-Algorithm/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp" -o "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.s"
+CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ysl/Desktop/BOJ-Algorithm/비트마스크/14569_시간표짜기.cpp -o CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.s
 
 # Object files for target BOJ_Algorithm
 BOJ_Algorithm_OBJECTS = \
-"CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.o"
+"CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.o"
 
 # External object files for target BOJ_Algorithm
 BOJ_Algorithm_EXTERNAL_OBJECTS =
 
-BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.o
+BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.o
 BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/build.make
 BOJ_Algorithm: CMakeFiles/BOJ_Algorithm.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BOJ_Algorithm"

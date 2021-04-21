@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-simulation&DFSBFS/20056_마법사상어와파이어볼.o: simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.o
+비트마스크/14569_시간표짜기.o: 비트마스크/14569_시간표짜기.cpp.o
 
-.PHONY : simulation&DFSBFS/20056_마법사상어와파이어볼.o
+.PHONY : 비트마스크/14569_시간표짜기.o
 
 # target to build an object file
-simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.o"
-.PHONY : simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.o
+비트마스크/14569_시간표짜기.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.o
+.PHONY : 비트마스크/14569_시간표짜기.cpp.o
 
-simulation&DFSBFS/20056_마법사상어와파이어볼.i: simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.i
+비트마스크/14569_시간표짜기.i: 비트마스크/14569_시간표짜기.cpp.i
 
-.PHONY : simulation&DFSBFS/20056_마법사상어와파이어볼.i
+.PHONY : 비트마스크/14569_시간표짜기.i
 
 # target to preprocess a source file
-simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.i"
-.PHONY : simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.i
+비트마스크/14569_시간표짜기.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.i
+.PHONY : 비트마스크/14569_시간표짜기.cpp.i
 
-simulation&DFSBFS/20056_마법사상어와파이어볼.s: simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.s
+비트마스크/14569_시간표짜기.s: 비트마스크/14569_시간표짜기.cpp.s
 
-.PHONY : simulation&DFSBFS/20056_마법사상어와파이어볼.s
+.PHONY : 비트마스크/14569_시간표짜기.s
 
 # target to generate assembly for a file
-simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.s"
-.PHONY : simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.s
+비트마스크/14569_시간표짜기.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.s
+.PHONY : 비트마스크/14569_시간표짜기.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... simulation&DFSBFS/20056_마법사상어와파이어볼.o"
-	@echo "... simulation&DFSBFS/20056_마법사상어와파이어볼.i"
-	@echo "... simulation&DFSBFS/20056_마법사상어와파이어볼.s"
+	@echo "... 비트마스크/14569_시간표짜기.o"
+	@echo "... 비트마스크/14569_시간표짜기.i"
+	@echo "... 비트마스크/14569_시간표짜기.s"
 .PHONY : help
 
 

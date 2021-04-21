@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/ysl/Desktop/BOJ-Algorithm/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp
+/Users/ysl/Desktop/BOJ-Algorithm/비트마스크/14569_시간표짜기.cpp
 iostream
 -
+bitset
+-
 vector
--
-algorithm
--
-cmath
 -
 

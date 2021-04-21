@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20056_마법사상어와파이어볼.cpp.o"  -o BOJ_Algorithm 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.o  -o BOJ_Algorithm 

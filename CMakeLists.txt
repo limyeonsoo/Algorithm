@@ -4,4 +4,4 @@ project(BOJ_Algorithm)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BOJ_Algorithm
-        비트마스크/14569_시간표짜기.cpp)
+        "simulation&DFSBFS/20057_마법사 상어와 토네이도.cpp")

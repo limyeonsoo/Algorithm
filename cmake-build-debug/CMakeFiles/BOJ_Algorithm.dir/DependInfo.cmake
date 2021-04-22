@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ysl/Desktop/BOJ-Algorithm/비트마스크/14569_시간표짜기.cpp" "/Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles/BOJ_Algorithm.dir/비트마스크/14569_시간표짜기.cpp.o"
+  "/Users/ysl/Desktop/BOJ-Algorithm/simulation&DFSBFS/20057_마법사 상어와 토네이도.cpp" "/Users/ysl/Desktop/BOJ-Algorithm/cmake-build-debug/CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20057_마법사_상어와_토네이도.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

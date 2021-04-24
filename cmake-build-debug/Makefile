@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-simulation&DFSBFS/20057_마법사_상어와_토네이도.o: simulation&DFSBFS/20057_마법사_상어와_토네이도.cpp.o
+simulation&DFSBFS/20058_마법사_상어와_파이어스톰.o: simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.o
 
-.PHONY : simulation&DFSBFS/20057_마법사_상어와_토네이도.o
+.PHONY : simulation&DFSBFS/20058_마법사_상어와_파이어스톰.o
 
 # target to build an object file
-simulation&DFSBFS/20057_마법사_상어와_토네이도.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20057_마법사_상어와_토네이도.cpp.o"
-.PHONY : simulation&DFSBFS/20057_마법사_상어와_토네이도.cpp.o
+simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.o"
+.PHONY : simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.o
 
-simulation&DFSBFS/20057_마법사_상어와_토네이도.i: simulation&DFSBFS/20057_마법사_상어와_토네이도.cpp.i
+simulation&DFSBFS/20058_마법사_상어와_파이어스톰.i: simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.i
 
-.PHONY : simulation&DFSBFS/20057_마법사_상어와_토네이도.i
+.PHONY : simulation&DFSBFS/20058_마법사_상어와_파이어스톰.i
 
 # target to preprocess a source file
-simulation&DFSBFS/20057_마법사_상어와_토네이도.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20057_마법사_상어와_토네이도.cpp.i"
-.PHONY : simulation&DFSBFS/20057_마법사_상어와_토네이도.cpp.i
+simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.i"
+.PHONY : simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.i
 
-simulation&DFSBFS/20057_마법사_상어와_토네이도.s: simulation&DFSBFS/20057_마법사_상어와_토네이도.cpp.s
+simulation&DFSBFS/20058_마법사_상어와_파이어스톰.s: simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.s
 
-.PHONY : simulation&DFSBFS/20057_마법사_상어와_토네이도.s
+.PHONY : simulation&DFSBFS/20058_마법사_상어와_파이어스톰.s
 
 # target to generate assembly for a file
-simulation&DFSBFS/20057_마법사_상어와_토네이도.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20057_마법사_상어와_토네이도.cpp.s"
-.PHONY : simulation&DFSBFS/20057_마법사_상어와_토네이도.cpp.s
+simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.s"
+.PHONY : simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... simulation&DFSBFS/20057_마법사_상어와_토네이도.o"
-	@echo "... simulation&DFSBFS/20057_마법사_상어와_토네이도.i"
-	@echo "... simulation&DFSBFS/20057_마법사_상어와_토네이도.s"
+	@echo "... simulation&DFSBFS/20058_마법사_상어와_파이어스톰.o"
+	@echo "... simulation&DFSBFS/20058_마법사_상어와_파이어스톰.i"
+	@echo "... simulation&DFSBFS/20058_마법사_상어와_파이어스톰.s"
 .PHONY : help
 
 

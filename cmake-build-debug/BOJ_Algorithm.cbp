@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ysl/Desktop/BOJ-Algorithm/simulation&amp;DFSBFS/20058_마법사 상어와 파이어스톰.cpp">
+		<Unit filename="/Users/ysl/Desktop/BOJ-Algorithm/Segment_Tree/2357_최솟값과 최댓값.cpp">
 			<Option target="BOJ_Algorithm"/>
 		</Unit>
 		<Unit filename="/Users/ysl/Desktop/BOJ-Algorithm/CMakeLists.txt">

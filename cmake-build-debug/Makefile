@@ -143,32 +143,32 @@ BOJ_Algorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/build
 .PHONY : BOJ_Algorithm/fast
 
-simulation&DFSBFS/20058_마법사_상어와_파이어스톰.o: simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.o
+Segment_Tree/2357_최솟값과_최댓값.o: Segment_Tree/2357_최솟값과_최댓값.cpp.o
 
-.PHONY : simulation&DFSBFS/20058_마법사_상어와_파이어스톰.o
+.PHONY : Segment_Tree/2357_최솟값과_최댓값.o
 
 # target to build an object file
-simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.o"
-.PHONY : simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.o
+Segment_Tree/2357_최솟값과_최댓값.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Segment_Tree/2357_최솟값과_최댓값.cpp.o
+.PHONY : Segment_Tree/2357_최솟값과_최댓값.cpp.o
 
-simulation&DFSBFS/20058_마법사_상어와_파이어스톰.i: simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.i
+Segment_Tree/2357_최솟값과_최댓값.i: Segment_Tree/2357_최솟값과_최댓값.cpp.i
 
-.PHONY : simulation&DFSBFS/20058_마법사_상어와_파이어스톰.i
+.PHONY : Segment_Tree/2357_최솟값과_최댓값.i
 
 # target to preprocess a source file
-simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.i"
-.PHONY : simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.i
+Segment_Tree/2357_최솟값과_최댓값.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Segment_Tree/2357_최솟값과_최댓값.cpp.i
+.PHONY : Segment_Tree/2357_최솟값과_최댓값.cpp.i
 
-simulation&DFSBFS/20058_마법사_상어와_파이어스톰.s: simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.s
+Segment_Tree/2357_최솟값과_최댓값.s: Segment_Tree/2357_최솟값과_최댓값.cpp.s
 
-.PHONY : simulation&DFSBFS/20058_마법사_상어와_파이어스톰.s
+.PHONY : Segment_Tree/2357_최솟값과_최댓값.s
 
 # target to generate assembly for a file
-simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make "CMakeFiles/BOJ_Algorithm.dir/simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.s"
-.PHONY : simulation&DFSBFS/20058_마법사_상어와_파이어스톰.cpp.s
+Segment_Tree/2357_최솟값과_최댓값.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BOJ_Algorithm.dir/build.make CMakeFiles/BOJ_Algorithm.dir/Segment_Tree/2357_최솟값과_최댓값.cpp.s
+.PHONY : Segment_Tree/2357_최솟값과_최댓값.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BOJ_Algorithm"
-	@echo "... simulation&DFSBFS/20058_마법사_상어와_파이어스톰.o"
-	@echo "... simulation&DFSBFS/20058_마법사_상어와_파이어스톰.i"
-	@echo "... simulation&DFSBFS/20058_마법사_상어와_파이어스톰.s"
+	@echo "... Segment_Tree/2357_최솟값과_최댓값.o"
+	@echo "... Segment_Tree/2357_최솟값과_최댓값.i"
+	@echo "... Segment_Tree/2357_최솟값과_최댓값.s"
 .PHONY : help
 
 

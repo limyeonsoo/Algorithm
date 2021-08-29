@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/ysl/Desktop/BOJ-Algorithm/simulation&DFSBFS/20058_마법사 상어와 파이어스톰.cpp
+/Users/ysl/Desktop/BOJ-Algorithm/Segment_Tree/2357_최솟값과 최댓값.cpp
 iostream
+-
+algorithm
 -
 vector
 -
 cmath
--
-queue
 -
 
